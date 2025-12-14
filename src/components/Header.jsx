@@ -186,7 +186,7 @@ const Header = () => {
                       <NavLink
                         key={item.path}
                         to={item.path}
-                        className="text-white block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-800  text-decoration-none"
+                        className="text-black block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-800  text-decoration-none"
                         onClick={() => setServiceOpen(false)}
                       >
                         {text[item.label]}
