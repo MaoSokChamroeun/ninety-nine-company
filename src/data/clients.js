@@ -19,11 +19,16 @@ import logo19 from '../assets/client/logo_19.jpg'
 const clients = [
     {
         id : 1,
-        image : logo1
+        image : logo1,
+        name : "YD លក់រថយន្ត",
+        description :'We are a professional car store dedicated to providing premium vehicles, transparent pricing, and outstanding customer service. With a strong focus on quality and reliability, we help our clients make confident decisions when purchasing their next vehicle.We are a professional car store dedicated to providing premium vehicles, transparent pricing, and outstanding customer service. With a strong focus on quality and reliability, we help our clients make confident decisions when purchasing their next vehicle.'
     },
     {
         id : 2,
-        image : logo2
+        image : logo2,
+        name : "HOME Appliance",
+        description :'We are a professional car store dedicated to providing premium vehicles, transparent pricing, and outstanding customer service. With a strong focus on quality and reliability, we help our clients make confident decisions when purchasing their next vehicle.We are a professional car store dedicated to providing premium vehicles, transparent pricing, and outstanding customer service. With a strong focus on quality and reliability, we help our clients make confident decisions when purchasing their next vehicle.'
+
     },
     {
         id : 3,

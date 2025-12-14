@@ -1,8 +1,6 @@
 import React from 'react'
 import Layout from '../layout/Layout'
 import profile1 from '../assets/profile/photo_2025-10-28_13-56-56.jpg'
-
-
 import icon1 from '../assets/icon_GIF/analytics.gif'
 import icon2 from '../assets/icon_GIF/ai-image.gif'
 import icon3 from '../assets/icon_GIF/deal.gif'
@@ -24,7 +22,7 @@ const ABout = () => {
         data-aos-delay="400"
         data-aos-easing="ease-in-out">
           <span className="text-7xl text-center justify-center flex tracking-wide leading-17">
-            <p style={{fontWeight : 'bold'}}>The dream team of <span className='text-pink-500'> degital marketing.</span></p>
+            <p style={{fontWeight : 'bolder'}}>The dream team of <span className='text-pink-500'  style={{fontWeight : 'bolder'}}> degital marketing.</span></p>
           </span>
           <p className="text-center mt-4" data-aos ="fade-up" 
         data-aos-duration="500"

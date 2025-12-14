@@ -11,7 +11,7 @@ const WorkFlow = () => {
             backgroundColor: "var(--bg-color)",
             color: "var(--nav-text)",
           }} >
-      <h1 className="text-center text-4xl font-black font-sans font-semibold">
+      <h1 className="text-center text-4xl " style={{fontWeight : 'bolder' , fontSize : '50px'}}>
         {text.workflow}
       </h1>
 

@@ -94,7 +94,8 @@ const Contact = () => {
             data-aos-duration="300"
             data-aos-delay="300"
             data-aos-easing="ease-in-out">Our Location</h2>
-            <div className="w-full h-96 md:h-96 rounded-lg shadow-md overflow-hidden" data-aos="fade-up"
+            <div className="w-full h-96 md:h-96 rounded-lg shadow-md overflow-hidden" 
+            data-aos="fade-up"
             data-aos-duration="700"
             data-aos-delay="700"
             data-aos-easing="ease-in-out">

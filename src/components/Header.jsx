@@ -173,7 +173,7 @@ const Header = () => {
                           key={item.path}
                           to={item.path}
                           className={({ isActive }) =>
-                            `text-black block px-4 py-2 rounded text-decoration-none ${
+                            `nav-link block px-4 py-2 rounded text-decoration-none ${
                               isActive ? "active-link" : ""
                             }`
                           }

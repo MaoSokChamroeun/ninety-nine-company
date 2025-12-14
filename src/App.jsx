@@ -16,6 +16,7 @@ import Upgrade from './service/Upgrade'
 import TelegramIcon from './components/TelegramIcon'
 import ScrollToTop from './components/ScrollToTop'
 import OurClientPage from './page/OurClientPage'
+import BlueStic from './service/BlueStic'
 
 function App() {
    useEffect(() => {
@@ -34,6 +35,7 @@ function App() {
          <Route path='/service/boost-post' element = {<BoostPage />} />
          <Route path='/service/upgrade-page' element = {<Upgrade />} />
          <Route path='/our-client' element = {<OurClientPage />} />
+         <Route path='/service/bluestic-verify' element = {<BlueStic />} />
       </Routes>
     </BrowserRouter>
   )

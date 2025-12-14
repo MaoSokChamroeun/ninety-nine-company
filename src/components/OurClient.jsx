@@ -4,8 +4,8 @@ import clients from "../data/clients";
 const OurClient = () => {
   return (
     <div className="w-full mt-10 px-4">
-      <h1 className="text-center text-2xl font-semibold">
-        <span className="text-pink-500">Our</span> Client
+      <h1 className="text-center text-2xl font-semibold" style={{fontWeight : 'bolder' , fontSize : '50px'}}>
+        <span className="text-pink-500" style={{fontWeight : 'bolder' , fontSize : '50px'}}>Our</span> Client
       </h1>
 
       <div className="max-w-7xl mx-auto mt-10">
@@ -35,7 +35,7 @@ const OurClient = () => {
                 sm:w-24 sm:h-24
                 md:w-28 md:h-28
               "
-              data-aos="fade-up"
+              data-aos="zoom-in"
               data-aos-duration="800"
             >
               <img

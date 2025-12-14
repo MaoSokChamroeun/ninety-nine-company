@@ -15,13 +15,13 @@ const Footer = () => {
 
           {/* Left */}
           <div>
-            <h1 className="text-2xl font-bold"><Link to = {'/'}><img src={logo} alt="logo" width={100} className='rounded-2xl' /></Link>Ninety Nine & Media</h1>
+            <h1 className="text-2xl font-bold"><Link to={'/'}><img src={logo} alt="logo" width={80} className='rounded-2xl mb-10' /></Link>Ninety Nine & Media</h1>
             <p className="mt-2">
               ទីតាំង នៅក្រោយផ្សាររំចែក អូឌឹម03 ផ្លូវជាតិលេខ4
             </p>
 
             {/* Email */}
-            <div className="flex items-center gap-3 mt-4">
+            <div className="flex items-center  gap-3 mt-4">
               <span>📧</span>
               <a href="mailto:ninetynineinfo99@gmail.com" className=" uppercase text-decoration-none">
                 NINETYNINEME99@GMAIL.COM
@@ -31,7 +31,7 @@ const Footer = () => {
             {/* Phone */}
             <div className="flex items-center gap-3 mt-2">
               <span>📞</span>
-              <p>088 238 89 85  / 098 330 880</p>
+              <p className='font-bold'>088 238 89 85  / 098 330 880</p>
             </div>
           </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
 
             <ul className="mt-3 space-y-2">
               <li className=''><a href="#" className=" footer-color font-semibold text-decoration-none ">About Company</a></li>
-              <li><a href="#" className="font-semibold text-decoration-none">Contact Us</a></li>
+              <li><a href="#" className="footer-color font-semibold text-decoration-none">Contact Us</a></li>
             </ul>
           </div>
 

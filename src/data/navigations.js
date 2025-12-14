@@ -47,7 +47,7 @@ export const SERVICE_NAV = [
     label : "service7"
   },
   {
-    path : "/service/bluestic-verfify",
+    path : "/service/bluestic-verify",
     label : "service8"
   },
   {

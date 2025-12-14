@@ -7,7 +7,7 @@ const OurSerive = () => {
             backgroundColor: "var(--nav-bg)",
             color: "var(--nav-text)",
           }}>
-      <h1 className="text-center pt-5"><span className='text-pink-500'>Our</span> Service</h1>
+      <h1 className="text-center pt-5" style={{fontWeight : 'bolder' , fontSize : '50px'}}><span className='text-pink-500' style={{fontWeight : 'bolder' , fontSize : '50px'}}>Our</span> Service</h1>
 
       <div className="container-fluid mx-auto mt-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto" 
