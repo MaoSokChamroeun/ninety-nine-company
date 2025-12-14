@@ -22,7 +22,7 @@ const ABout = () => {
         data-aos-delay="400"
         data-aos-easing="ease-in-out">
           <span className="text-sm text-center justify-center flex tracking-wide">
-            <p style={{fontWeight : "bolder" , fontSize : "20px"}}><span className='text-pink-500' style={{fontWeight : 'bolder' , fontSize : "20px"}}>Ninety Nine</span> is a creative digital agency<span className='text-pink-500' style={{fontWeight : 'bolder' , fontSize : "2px"}}>Specializing</span></p>
+            <p style={{fontWeight : "bolder" , fontSize : "20px"}}><span className='text-pink-500' style={{fontWeight : 'bolder' , fontSize : "20px"}}>Ninety Nine</span> is a creative digital agency<span className='text-pink-500' style={{fontWeight : 'bolder' , fontSize : "20px"}}> Specializing</span></p>
           </span>
           <p className='text-center'>in Graphic Design, Video Editing, Advertising, and Social Media Management.</p>
         </div>

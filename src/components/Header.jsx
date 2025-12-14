@@ -34,73 +34,85 @@ const Header = () => {
             </div>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex md:items-center ">
-              {MAIN_NAV.map((item) => (
-                  <NavLink
-                    key={item.path}
-                    to={item.path}
-                    className={({ isActive }) =>
-                      `nav-link block px-3 py-2 ${isActive ? "active-link" : ""}`
-                    }
-                  >
-                    {text[item.label]}
-                  </NavLink>
-                ))}
+            <div className="hidden md:flex md:items-center space-x-2">
+              
+              {/* Home */}
+              <NavLink to="/" className={({ isActive }) =>
+                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+              }>
+                {text.home}
+              </NavLink>
 
-              {/* Service dropdown */}
+              {/* About */}
+              <NavLink to="/about" className={({ isActive }) =>
+                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+              }>
+                {text.about}
+              </NavLink>
+
+              {/* Service Dropdown */}
               <div className="relative">
-                  <button
-                    onClick={() => setServiceOpen(!serviceOpen)}
-                    className="hover:text-gray-800 flex items-center fw-medium"
-                  >
-                    {text.service}
-                    <span className="ml-1">{serviceOpen ? "▲" : "▼"}</span>
-                  </button>
+                <button
+                  onClick={() => setServiceOpen(!serviceOpen)}
+                  className="nav-link px-3 py-2 flex items-center"
+                >
+                  {text.service}
+                  <span className="ml-1 text-xs">{serviceOpen ? "▲" : "▼"}</span>
+                </button>
 
-                  {serviceOpen && (
-                    <div className="absolute mt-2 w-60 dark:bg-slate-900 p-2 rounded shadow-lg z-50">
-                      {SERVICE_NAV.map((item) => (
-                        <NavLink
-                          key={item.path}
-                          to={item.path}
-                          className={({ isActive }) =>
-                            `text-white block px-4 py-2 rounded text-decoration-none ${
-                              isActive ? "active-link" : ""
-                            }`
-                          }
-                        >
-                          {text[item.label]}
-                        </NavLink>
-                      ))}
-                    </div>
-                  )}
-                </div>
+                {serviceOpen && (
+                  <div className="absolute mt-2 w-60 dark:bg-slate-900 p-2 rounded shadow-lg z-50 ">
+                    {SERVICE_NAV.map((item) => (
+                      <NavLink
+                        key={item.path}
+                        to={item.path}
+                        className="text-white block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-800 text-decoration-none"
+                        onClick={() => setServiceOpen(false)}
+                      >
+                        {text[item.label]}
+                      </NavLink>
+                    ))}
+                  </div>
+                )}
+              </div>
 
-                <div className="flex items-center justify-center ms-3">
-                  <DarkModeToggle />
-                </div>
-              {/* Language Switch */}
+              {/* Our Client */}
+              <NavLink to="/our-client" className={({ isActive }) =>
+                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+              }>
+                {text.ourclient}
+              </NavLink>
+
+              {/* Contact */}
+              <NavLink to="/contact" className={({ isActive }) =>
+                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+              }>
+                {text.contact}
+              </NavLink>
+
+              {/* Dark mode */}
+              <div className="ml-3">
+                <DarkModeToggle />
+              </div>
+
+              {/* Language */}
               <div className="flex space-x-2 ml-4">
                 {lang !== "en" && (
                   <button onClick={() => changeLang("en")}>
-                    <img
-                      src="https://img.freepik.com/free-vector/illustration-uk-flag_53876-18166.jpg?semt=ais_hybrid&w=740&q=80"
-                      alt="English"
-                      className="w-12 h-12 cursor-pointer rounded-full"
-                    />
+                    <img src="https://img.freepik.com/free-vector/illustration-uk-flag_53876-18166.jpg"
+                      className="w-8 h-8 rounded-full" />
                   </button>
                 )}
                 {lang !== "kh" && (
                   <button onClick={() => changeLang("kh")}>
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/2560px-Flag_of_Cambodia.svg.png"
-                      alt="Khmer"
-                      className="w-12 h-12 cursor-pointer rounded-full"
-                    />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg"
+                      className="w-8 h-8 rounded-full" />
                   </button>
                 )}
               </div>
+
             </div>
+
 
             {/* Mobile Hamburger */}
             <div className="md:hidden flex items-center">
@@ -145,46 +157,60 @@ const Header = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden px-3 pt-2 pb-4 space-y-1">
-            {MAIN_NAV.map((item) => (
-                  <NavLink
-                    key={item.path}
-                    to={item.path}
-                    className={({ isActive }) =>
-                      `nav-link block px-4 py-2 ${isActive ? "active-link" : ""}`
-                    }
-                  >
-                    {text[item.label]}
-                  </NavLink>
-                ))}
+            <NavLink to="/" className={({ isActive }) =>
+                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+              }>
+                {text.home}
+              </NavLink>
+
+              {/* About */}
+              <NavLink to="/about" className={({ isActive }) =>
+                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+              }>
+                {text.about}
+              </NavLink>
+
+              {/* Service Dropdown */}
+              <div className="relative">
+                <button
+                  onClick={() => setServiceOpen(!serviceOpen)}
+                  className="nav-link px-3 py-2 flex items-center"
+                >
+                  {text.service}
+                  <span className="ml-1 text-xs">{serviceOpen ? "▲" : "▼"}</span>
+                </button>
+
+                {serviceOpen && (
+                  <div className="absolute mt-2 w-60 dark:bg-slate-900 p-2 rounded shadow-lg z-50">
+                    {SERVICE_NAV.map((item) => (
+                      <NavLink
+                        key={item.path}
+                        to={item.path}
+                        className="text-white block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-800  text-decoration-none"
+                        onClick={() => setServiceOpen(false)}
+                      >
+                        {text[item.label]}
+                      </NavLink>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Our Client */}
+              <NavLink to="/our-client" className={({ isActive }) =>
+                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+              }>
+                {text.ourclient}
+              </NavLink>
+
+              {/* Contact */}
+              <NavLink to="/contact" className={({ isActive }) =>
+                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+              }>
+                {text.contact}
+              </NavLink>
 
             {/* Mobile Service Dropdown */}
-            <div>
-              <button
-                onClick={() => setServiceOpen(!serviceOpen)}
-                className="w-full text-left px-3 py-2 rounded flex justify-between items-center"
-              >
-                {text.service}
-                <span>{serviceOpen ? "▲" : "▼"}</span>
-              </button>
-              {serviceOpen && (
-                <div className="pl-4">
-                  {SERVICE_NAV.map((item) => (
-                        <NavLink
-                          key={item.path}
-                          to={item.path}
-                          className={({ isActive }) =>
-                            `nav-link block px-4 py-2 rounded text-decoration-none ${
-                              isActive ? "active-link" : ""
-                            }`
-                          }
-                        >
-                          {text[item.label]}
-                        </NavLink>
-                      ))}
-              
-                </div>
-              )}
-            </div>
             <div className="px-4 py-6">
                 <DarkModeToggle />
               </div>

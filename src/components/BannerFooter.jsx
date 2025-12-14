@@ -17,10 +17,10 @@ const BannerFooter = () => {
             data-aos-duration="350"
             data-aos-delay="350"
             data-aos-easing="ease-in-out">
-      Grow Your Business With <span className='text-pink-500' style={{fontWeight : 'bolder'}} data-aos="fade-up"
+            Grow Your Business With <span className='text-pink-500' style={{fontWeight : 'bolder'}} data-aos="fade-up"
             data-aos-duration="350"
             data-aos-delay="350"
-            data-aos-easing="ease-in-out">Ninety Nine Media</span>
+            data-aos-easing="ease-in-out">Ninety Nine</span>
     </h2>
 
     <p className="mt-4 text-md">

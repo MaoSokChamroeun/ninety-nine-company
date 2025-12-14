@@ -43,7 +43,7 @@ const OurClient = () => {
                 alt=""
                 className="
                   object-contain
-                  w-12 h-12
+                  w-20 h-20
                   sm:w-16 sm:h-16
                   md:w-20 md:h-20
                   rounded-full

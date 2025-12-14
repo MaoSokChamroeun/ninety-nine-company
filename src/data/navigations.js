@@ -1,3 +1,4 @@
+// data/navigations.js
 export const MAIN_NAV = [
   {
     path: "/",
@@ -8,14 +9,15 @@ export const MAIN_NAV = [
     label: "about",
   },
   {
+    path: "/our-client",
+    label: "ourclient",
+  },
+  {
     path: "/contact",
     label: "contact",
   },
-  {
-    path : "/our-client",
-    label : 'ourclient'
-  }
 ];
+
 
 export const SERVICE_NAV = [
   {
