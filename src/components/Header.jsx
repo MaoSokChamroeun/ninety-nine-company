@@ -61,12 +61,12 @@ const Header = () => {
                 </button>
 
                 {serviceOpen && (
-                  <div className="absolute mt-2 w-60 dark:bg-slate-900 p-2 rounded shadow-lg z-50 ">
+                  <div className="absolute left-0 mt-2 w-60 bg-white dark:bg-slate-900 rounded-xl shadow-lg z-50">
                     {SERVICE_NAV.map((item) => (
                       <NavLink
                         key={item.path}
                         to={item.path}
-                        className="text-white block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-800 text-decoration-none"
+                        className="text-black block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-800 text-decoration-none"
                         onClick={() => setServiceOpen(false)}
                       >
                         {text[item.label]}
@@ -181,7 +181,7 @@ const Header = () => {
                 </button>
 
                 {serviceOpen && (
-                  <div className="absolute mt-2 w-60 dark:bg-slate-900 p-2 rounded shadow-lg z-50">
+                  <div className="absolute left-0 mt-2 w-60 bg-white dark:bg-slate-900 rounded-xl shadow-lg z-50">
                     {SERVICE_NAV.map((item) => (
                       <NavLink
                         key={item.path}
