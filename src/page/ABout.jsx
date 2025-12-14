@@ -20,15 +20,15 @@ const ABout = () => {
 
         <div className="our-team max-w-2xl mx-auto"
         data-aos ="fade-up" 
-        data-aos-duration="600"
-        data-aos-delay="600"
+        data-aos-duration="400"
+        data-aos-delay="400"
         data-aos-easing="ease-in-out">
           <span className="text-7xl text-center justify-center flex tracking-wide leading-17">
             <p style={{fontWeight : 'bold'}}>The dream team of <span className='text-pink-500'> degital marketing.</span></p>
           </span>
           <p className="text-center mt-4" data-aos ="fade-up" 
-        data-aos-duration="700"
-        data-aos-delay="700"
+        data-aos-duration="500"
+        data-aos-delay="500"
         data-aos-easing="ease-in-out">We Grow Bussinesses Online</p>
         </div>
 
@@ -36,8 +36,8 @@ const ABout = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="w-full h-full" 
             data-aos ="fade-up" 
-        data-aos-duration="900"
-        data-aos-delay="900"
+        data-aos-duration="550"
+        data-aos-delay="550"
         data-aos-easing="ease-in-out">
               <img
                 src={profile1}
@@ -48,13 +48,13 @@ const ABout = () => {
 
                <div className="w-full h-full">
                <p style={{fontSize : '60px'}} data-aos ="fade-up" 
-                data-aos-duration="1000"
-                data-aos-delay="1000"
+                data-aos-duration="6600"
+                data-aos-delay="600"
                 data-aos-easing="ease-in-out">
                 <span className='text-pink-500 text-center'>Ninety Nine Media</span> & Advertising</p>
                   <p className='py-20 text-gray-300' style={{fontSize : '20px'}} data-aos ="fade-up" 
-                  data-aos-duration="1100"
-                  data-aos-delay="1100"
+                  data-aos-duration="600"
+                  data-aos-delay="600"
                   data-aos-easing="ease-in-out">
                     Ninety Nine Media & Advertising is a modern digital marketing and advertising agency founded on October 10, 2024, with a mission to empower businesses in Cambodia to grow, scale, and stand out in today’s fast-moving digital era.
                       We are committed to delivering creative, innovative, and result-driven digital solutions that help brands strengthen their identity, reach their audiences, and achieve measurable success.
@@ -100,8 +100,8 @@ const ABout = () => {
                             business challenges, helping you achieve measurable success.                            </div>
                     </div>
                     <div className='max-w-xl  mx-auto p-4 rounded-2xl' data-aos ="fade-up" 
-                    data-aos-duration="900"
-                    data-aos-delay="900"
+                    data-aos-duration="550"
+                    data-aos-delay="550"
                     data-aos-easing="ease-in-out">
                         <div className="icon flex justify-center p-3">
                             <span><img src={icon3} alt="" width={50} /></span>
@@ -112,8 +112,8 @@ const ABout = () => {
                             by continuously delivering value and evolving with your business goals.                            </div>
                     </div>
                     <div className='max-w-xl  mx-auto p-4 rounded-2xl' data-aos ="fade-up" 
-                      data-aos-duration="1100"
-                      data-aos-delay="1100"
+                      data-aos-duration="700"
+                      data-aos-delay="700"
                       data-aos-easing="ease-in-out">
                         <div className="icon flex justify-center p-3">
                             <span><img src={icon2} alt="" width={50} /></span>

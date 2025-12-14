@@ -13,6 +13,9 @@ import logo12 from '../assets/client/logo_12.jpg'
 import logo13 from '../assets/client/logo_13.jpg'
 import logo14 from '../assets/client/logo_14.jpg'
 import logo15 from '../assets/client/logo_15.jpg'
+import logo16 from '../assets/client/logo_16.jpg'
+import logo17 from '../assets/client/logo_17.jpg'
+import logo19 from '../assets/client/logo_19.jpg'
 const clients = [
     {
         id : 1,
@@ -73,6 +76,18 @@ const clients = [
     {
         id : 15,
         image : logo15
+    },
+    {
+        id : 16,
+        image : logo16
+    },
+    {
+        id : 17,
+        image : logo17,
+    },
+    {
+        id : 18,
+        image : logo19
     }
 ];
 

@@ -12,6 +12,7 @@ export default {
         khmer: ['Nokora', 'sans-serif'],
         stack: ['"Stack Sans Headline"', 'sans-serif'], 
       },
+      
     },
   },
   plugins: [],

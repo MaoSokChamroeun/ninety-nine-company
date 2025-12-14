@@ -11,6 +11,10 @@ export const MAIN_NAV = [
     path: "/contact",
     label: "contact",
   },
+  {
+    path : "/our-client",
+    label : 'ourclient'
+  }
 ];
 
 export const SERVICE_NAV = [

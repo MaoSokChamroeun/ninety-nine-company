@@ -1,6 +1,9 @@
 :root {
   --bg-color: #ffffff;
+  --bg-service :#ec4899;
+  --color-service : #ffffff;
   --text-color: #020617;
+  
   --nav-bg: #ffffff;
   --nav-hover: #e5e7eb;
   --nav-active: #ec4899; /* pink */
@@ -8,7 +11,7 @@
 
 [data-theme="dark"] {
   --bg-color: #020617;
-  --text-color: #e5e7eb;
+  --text-color: #ffffff;
   --nav-bg: #020617;
   --nav-hover: #1e293b;
   --nav-active: #ec4899;
@@ -34,6 +37,10 @@ body {
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+.service-bg{
+  color: var(--color-service);
+  background-color: var(--bg-service);
+}
 
 /* Hover */
 .nav-link:hover {
@@ -45,4 +52,8 @@ body {
   color: var(--nav-active) !important;
   font-weight: 600;
   border-bottom: 2px solid var(--nav-active);
+}
+
+.footer-color {
+  color: var(--text-color);
 }

@@ -15,6 +15,7 @@ import BoostPage from './service/BoostPage'
 import Upgrade from './service/Upgrade'
 import TelegramIcon from './components/TelegramIcon'
 import ScrollToTop from './components/ScrollToTop'
+import OurClientPage from './page/OurClientPage'
 
 function App() {
    useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
          <Route path='/service/video-editing' element = {<VideoEditing />} />
          <Route path='/service/boost-post' element = {<BoostPage />} />
          <Route path='/service/upgrade-page' element = {<Upgrade />} />
+         <Route path='/our-client' element = {<OurClientPage />} />
       </Routes>
     </BrowserRouter>
   )

@@ -1,5 +1,6 @@
 import React from "react"
 import data from "../data/Service"
+import { Link } from "react-router-dom"
 const OurSerive = () => {
   return (
     <div className="container-fluid mx-auto" style={{
@@ -31,8 +32,11 @@ const OurSerive = () => {
       <div className="content mt-3">
         <p className="text-md text-pink-500">{service.t_cotent}</p>
         <div className="desc m-2 text-center">
-          <p className="text-sm text-stone-700">{service.t_desc}</p>
+          <p className="text-sm ">{service.t_desc}</p>
         </div>
+        <button>
+          <Link to={service.link} className="nav-link text-decoration-none service-bg p-2 rounded-xs" style={{fontSize : '13px'}}>View Details</Link>
+        </button>
       </div>
     </div>
   ))

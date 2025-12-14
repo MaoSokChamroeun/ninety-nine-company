@@ -7,6 +7,7 @@ import OurSerive from "./OurSerive";
 import OurWork from "./OurWork";
 import ToastCard from "./Toast";
 import OurClient from "./OurClient";
+import BannerFooter from "./BannerFooter";
 
 const Home = () => {
   const [showToast, setShowToast] = useState(false);
@@ -33,7 +34,9 @@ const Home = () => {
       <OurSerive />
       <WorkFlow />
       <OurClient />
+     
       <OurWork />
+       <BannerFooter />
     </Layout>
   );
 };

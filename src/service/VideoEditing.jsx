@@ -58,9 +58,10 @@ const VideoEditing = () => {
                 ></iframe>
                 </div>
 
-                <div className="relative w-[350px] h-[600px] mx-auto" data-aos="fade-up"
-                data-aos-duration="1100"
-                data-aos-delay="1100"
+                <div className="relative w-[350px] h-[600px] mx-auto" 
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-delay="500"
                 data-aos-easing="ease-in-out">
                 <iframe
                     className="absolute top-0 left-0 w-full h-full rounded-lg"
@@ -72,9 +73,10 @@ const VideoEditing = () => {
                 ></iframe>
                 </div>
 
-                <div className="relative w-[350px] h-[600px] mx-auto" data-aos="fade-up"
-                data-aos-duration="1300"
-                data-aos-delay="1300"
+                <div className="relative w-[350px] h-[600px] mx-auto" 
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="700"
                 data-aos-easing="ease-in-out">
                 <iframe
                     className="absolute top-0 left-0 w-full h-full rounded-lg"
@@ -87,9 +89,10 @@ const VideoEditing = () => {
                 </div>
 
 
-                <div className="relative w-[350px] h-[600px] mx-auto" data-aos="fade-up"
-                data-aos-duration="1600"
-                data-aos-delay="1600"
+                <div className="relative w-[350px] h-[600px] mx-auto" 
+                data-aos="fade-up"
+                data-aos-duration="900"
+                data-aos-delay="900"
                 data-aos-easing="ease-in-out">
                 <iframe
                     className="absolute top-0 left-0 w-full h-full rounded-lg"
@@ -101,9 +104,10 @@ const VideoEditing = () => {
                 ></iframe>
                 </div>
 
-                <div className="relative w-[350px] h-[600px] mx-auto" data-aos="fade-up"
-                data-aos-duration="1800"
-                data-aos-delay="1800"
+                <div className="relative w-[350px] h-[600px] mx-auto" 
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-delay="500"
                 data-aos-easing="ease-in-out">
                 <iframe
                     className="absolute top-0 left-0 w-full h-full rounded-lg"
@@ -115,10 +119,14 @@ const VideoEditing = () => {
                 ></iframe>
                 </div>
 
-                <div className="relative w-[350px] h-[600px] mx-auto">
+                <div className="relative w-[350px] h-[600px] mx-auto"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="700"
+                data-aos-easing="ease-in-out">
                 <iframe
                     className="absolute top-0 left-0 w-full h-full rounded-lg"
-                    src="https://youtube.com/embeb/78P2b5Cth6w?si=Zg0dzQBMwW0L4ie4"
+                    src="https://www.youtube.com/embed/vZBStMN6_uQ"
                     title="YouTube video"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
