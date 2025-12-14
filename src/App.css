@@ -1,0 +1,48 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #020617;
+  --nav-bg: #ffffff;
+  --nav-hover: #e5e7eb;
+  --nav-active: #ec4899; /* pink */
+}
+
+[data-theme="dark"] {
+  --bg-color: #020617;
+  --text-color: #e5e7eb;
+  --nav-bg: #020617;
+  --nav-hover: #1e293b;
+  --nav-active: #ec4899;
+}
+
+* {
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease,
+    border-color 0.5s ease;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+/* Base nav link */
+.nav-link {
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover */
+.nav-link:hover {
+  background-color: var(--nav-hover);
+}
+
+/* Active link */
+.active-link {
+  color: var(--nav-active) !important;
+  font-weight: 600;
+  border-bottom: 2px solid var(--nav-active);
+}
