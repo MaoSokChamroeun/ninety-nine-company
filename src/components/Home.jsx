@@ -8,6 +8,7 @@ import OurWork from "./OurWork";
 
 import OurClient from "./OurClient";
 import BannerFooter from "./BannerFooter";
+import Action from "./Action";
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ const Home = () => {
       
       <ImageSlider />
       <OurSerive />
+      <Action />
       <WorkFlow />
       <OurClient />
      
