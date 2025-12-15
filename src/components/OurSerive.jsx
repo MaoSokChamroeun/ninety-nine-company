@@ -1,7 +1,9 @@
-import React from "react"
+import React, { useContext } from "react"
 import data from "../data/Service"
 import { Link } from "react-router-dom"
+import { LanguageContext } from "../context/LanguageContext"
 const OurSerive = () => {
+  const {text} = useContext(LanguageContext)
   return (
     <div className="container-fluid mx-auto" style={{
             backgroundColor: "var(--nav-bg)",
@@ -30,9 +32,9 @@ const OurSerive = () => {
       </div>
 
       <div className="content mt-3">
-        <p className="text-md text-pink-500">{service.t_cotent}</p>
+         {text?.services?.[service.titleKey.split(".")[1]]?.title}
         <div className="desc m-2 text-center">
-          <p className="text-sm ">{service.t_desc}</p>
+          {text?.services?.[service.descKey.split(".")[1]]?.desc}
         </div>
         <button>
           <Link to={service.link} className="nav-link text-decoration-none service-bg p-2 rounded-xs" style={{fontSize : '13px'}}>View Details</Link>

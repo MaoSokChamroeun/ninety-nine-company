@@ -12,7 +12,7 @@ const BlueStic = () => {
             
           </div>
           <div className="max-w-7xl mx-auto">
-            <img src={photo} alt="" className='w-full object-cover ' />
+            <img src={photo} alt="" className='w-full object-cover rounded-2xl' />
           </div>
         </div>
     </Layout>

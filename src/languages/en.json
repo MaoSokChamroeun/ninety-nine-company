@@ -14,7 +14,41 @@
   "service5" : "Video Editing",
   "service6" : "Upgrade Page",
   "service7" : "Consulting",
-  "service8" : "Bluestick Verify",
-  "service9" : "Photograper"
+  "service8" : "Bluetick Verify",
+  "service9" : "Photograper",
+  "services": {
+    "consulting": {
+      "title": "Consulting",
+      "desc": "We provide business consulting to help you build clear strategies and achieve sustainable growth."
+    },
+    "video": {
+      "title": "Video Editing",
+      "desc": "High-quality video editing with effects, subtitles, and polished visuals for social and promotional use."
+    },
+    "design": {
+      "title": "Graphic Design",
+      "desc": "Professional graphic design services for logos, posters, banners, and branding artwork."
+    },
+    "photo": {
+      "title": "Photographer",
+      "desc": "High-quality photography for products, events, and personal portrait sessions."
+    },
+    "upgrade": {
+      "title": "Upgrade Page",
+      "desc": "Upgrade your page with better branding, cleaner design, and optimized reach performance."
+    },
+    "tiktok": {
+      "title": "Boost TikTok",
+      "desc": "Boost your TikTok views, reach, and follower growth using effective and safe strategies."
+    },
+    "live": {
+      "title": "Boost Live",
+      "desc": "Increase your livestream viewers and engagement with optimized scripts and targeted boosting."
+    },
+    "verify": {
+      "title": "Bluetick Verify",
+      "desc": "Social media security setup to protect your accounts from hacking and unauthorized access."
+    }
+  }
   
 }
