@@ -2,7 +2,7 @@ import React from "react";
 
 const Action = () => {
   return (
-    <div className="max-w-full mx-auto">
+    <div className="max-w-full mx-auto mt-5 mb-5">
       <div className="max-w-[1500px] mx-auto flex flex-col lg:flex-row gap-10">
 
         {/* LEFT TEXT */}
