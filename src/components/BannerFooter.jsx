@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import banner from '../assets/cover-bannre-footer/cover.png'
 import { Link } from 'react-router-dom'
+import { LanguageContext } from '../context/LanguageContext'
 const BannerFooter = () => {
+  const {text} = useContext(LanguageContext);
   return (
     <div
   className="relative max-w-full px-6 py-10 md:p-20 mx-auto mt-15 bg-bottom bg-content bg-no-repeat"
@@ -17,15 +19,14 @@ const BannerFooter = () => {
             data-aos-duration="350"
             data-aos-delay="350"
             data-aos-easing="ease-in-out">
-            Grow Your Business With <span className='text-pink-500' style={{fontWeight : 'bolder'}} data-aos="fade-up"
+            {text?.business?.business_title} <span className='text-pink-500' style={{fontWeight : 'bolder'}} data-aos="fade-up"
             data-aos-duration="350"
             data-aos-delay="350"
-            data-aos-easing="ease-in-out">Ninety Nine</span>
+            data-aos-easing="ease-in-out">{text?.business?.business_title_next}</span>
     </h2>
 
     <p className="mt-4 text-md">
-      We help brands reach the right audience through creative,
-      data-driven advertising that delivers real results.
+      {text?.business?.business_desc}
     </p>
 
     <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">

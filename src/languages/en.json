@@ -7,9 +7,38 @@
   "service2": "Boots Tiktok",
   "service3": "Boots Live",
   "contact": "Contact Us",
-  "workflow" : "Work Flow",
-  "befor_boost" : "Before Boosting",
-  "check" : "Page Checking",
+  "why_choose" : {
+    "choose_title" : "Why",
+    "choose_middle" : "Choose",
+    "choose_desc" : "Ninety Nine ?"
+  },
+  "workflow" : {
+    "beforeboost" : {
+      "before_title" : "Before Boosting",
+      "check_page" : "Check Page",
+      "check_ads" : "Checking Ads Account",
+      "check_content" : "Checking content/video quality before boosting"
+    },
+    "during_boosting" : {
+      "during_title" : "During Boosting",
+      "check_ads_perfor" : "Checking Ads Performance",
+      "adj_perfor" : "Adjusting Performance",
+      "report_client" : "Reporting to client"
+    },
+    "after_boosting" : {
+      "after_boosting_title" : "After Boosting",
+      "setting_next_objectives" : "Setting next objectives",
+      "after_report_client" : "Report to client",
+      "research" : "Research & Development (R&D)"
+    }
+  },
+  
+  "business" : {
+    "business_title" : "Grow Your Business With",
+    "business_title_next" : "Ninety Nine",
+    "business_desc" : "We help brands reach the right audience through creative, data-driven advertising that delivers real results."
+  },
+
   "service4" : "Graphic Design",
   "service5" : "Video Editing",
   "service6" : "Upgrade Page",
@@ -49,6 +78,24 @@
       "title": "Bluetick Verify",
       "desc": "Social media security setup to protect your accounts from hacking and unauthorized access."
     }
+  },
+
+  "ourmision" : {
+    "grow_up_business" : {
+      "grow_up_title" : "Grow Up Business" ,
+      "grow_up_description" : "We empower entrepreneurs and companies to scale with strategic digital tools, effective campaigns, and expert guidance tailored for growth."
+    },
+    "partner_ship" : {
+      "partner_ship_title" : "Long-Term Partnerships",
+      "partner_ship_description" : "We build meaningful, lasting relationships with clients by continuously delivering value and evolving with your business goals."
+    },
+    "solution_for_business" : {
+      "solution_title" : "Solution for Business",
+      "solution_description" : "Our team delivers customized marketing solutions that address specific business challenges, helping you achieve measurable success."
+    }
+  },
+  "our_vision" : {
+    "vision_desc" : "To become one of Cambodia’s most impactful and innovative digital marketing & advertising agencies—powered by creativity, technology, and strategic thinking."
   }
   
 }

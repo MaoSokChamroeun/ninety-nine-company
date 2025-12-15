@@ -1,12 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Layout from '../layout/Layout'
 import profile1 from '../assets/profile/photo_2025-10-28_13-56-56.jpg'
-import icon1 from '../assets/icon_GIF/analytics.gif'
-// import icon2 from '../assets/icon_GIF/ai-image.gif'
-import icon3 from '../assets/icon_GIF/deal.gif'
-import icon4 from '../assets/icon_GIF/social-care.gif' 
+import ourmisssions from '../data/ourmissions'
 import '../index.css'
+import { LanguageContext } from '../context/LanguageContext'
 const ABout = () => {
+  const {text} = useContext(LanguageContext);
   return (
     <Layout>
       <div className="container mx-auto mt-20">
@@ -79,68 +78,34 @@ const ABout = () => {
             data-aos ="fade-up" 
             data-aos-duration="300"
             data-aos-delay="300"
-            data-aos-easing="ease-in-out"><span className='text-pink-500'
-            >Our</span> Mission</h1>
+            data-aos-easing="ease-in-out" style={{fontWeight : "bolder"}}><span className='text-pink-500'
+            style={{fontWeight : "bolder"}}>Our</span> Mission</h1>
             <div className="max-w-7xl mt-4">
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
-                    <div className='max-w-xl  mx-auto p-4 rounded-2xl' data-aos ="fade-up" 
+                    {
+                      ourmisssions.map((items) => (
+                        <div className='max-w-xl  mx-auto p-4 rounded-2xl' data-aos ="fade-up" 
                       data-aos-duration="500"
                       data-aos-delay="500"
                       data-aos-easing="ease-in-out">
                         <div className="icon flex justify-center p-3">
-                            <span><img src={icon1} alt="" width={50} /></span>
+                            <span><img src={items.icon} alt="" width={50} /></span>
                         </div>
-                        <p className='text-center text-2xl'>Grow Up Business</p>
+                        <p className='text-center text-2xl'>{text?.ourmision?.[items.section]?.[items.titleKey]}</p>
                             <div className='text-center' >
-                                We empower entrepreneurs and companies to scale with strategic 
-                                digital tools, effective campaigns, and expert guidance tailored for growth.
+                               {text?.ourmision?.[items.section]?.[items.descKey]}
                             </div>
                     </div>
-
-                    <div className='max-w-xl  mx-auto p-4 rounded-2xl' data-aos ="fade-up" 
-                      data-aos-duration="700"
-                      data-aos-delay="700"
-                      data-aos-easing="ease-in-out">
-                        <div className="icon flex justify-center p-3">
-                            <span><img src={icon4} alt="" width={50} /></span>
-                        </div>
-                        <p className='text-center text-2xl'>Solution for Business</p>
-                            <div className='text-center'>
-                            Our team delivers customized marketing solutions that address specific 
-                            business challenges, helping you achieve measurable success.                            </div>
-                    </div>
-                    <div className='max-w-xl  mx-auto p-4 rounded-2xl' data-aos ="fade-up" 
-                    data-aos-duration="550"
-                    data-aos-delay="550"
-                    data-aos-easing="ease-in-out">
-                        <div className="icon flex justify-center p-3">
-                            <span><img src={icon3} alt="" width={50} /></span>
-                        </div>
-                        <p className='text-center text-2xl'>Long-Term Partnerships</p>
-                            <div className='text-center '>
-                            We build meaningful, lasting relationships with clients 
-                            by continuously delivering value and evolving with your business goals.                            </div>
-                    </div>
-                    {/* <div className='max-w-xl  mx-auto p-4 rounded-2xl' data-aos ="fade-up" 
-                      data-aos-duration="700"
-                      data-aos-delay="700"
-                      data-aos-easing="ease-in-out">
-                        <div className="icon flex justify-center p-3">
-                            <span><img src={icon2} alt="" width={50} /></span>
-                        </div>
-                        <p className='text-center text-2xl'>Shape Cambodia’s Digital Futures</p>
-                            <div className='text-center text-gray-600'>
-                            We’re committed to leading Cambodia into the digital era through innovation, 
-                            education, and impactful digital marketing solutions.                            </div>
-                    </div> */}
+                      ))
+                    }
                 </div>
             </div>
         </div>
 
         <div className="our-vistion w-full mt-5">
-           <h1 className='text-center'><span className='text-pink-500'>Our</span> Vistion</h1>
+           <h1 className='text-center' style={{fontWeight : "bolder"}}><span className='text-pink-500' style={{fontWeight : "bolder"}}>Our</span> Vistion</h1>
            <p className='text-center max-w-4xl mx-auto'>
-            To become one of Cambodia’s most impactful and innovative digital marketing & advertising agencies—powered by creativity, technology, and strategic thinking.
+                    {text?.our_vision?.vision_desc}
            </p>
         </div>
       </div>

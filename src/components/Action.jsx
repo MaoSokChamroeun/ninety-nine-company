@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 
 const Action = () => {
+  const {text} = useContext(LanguageContext);
   return (
     <div className="max-w-full mx-auto mt-5 mb-5">
       <div className="max-w-[1500px] mx-auto flex flex-col lg:flex-row gap-10">
 
         {/* LEFT TEXT */}
         <div className="max-w-sm flex justify-center items-center text-center lg:text-left">
-        <h1 className="text-center lg:text-left text-3xl font-bold">
-            Some activities recorded directly to the customer's location
+        <h1 className=" lg:text-left text-6xl ">
+            <span className="text-6xl text-pink-500 " >{text?.why_choose?.choose_title} <br></br>{text?.why_choose?.choose_middle} <br></br></span> <span style={{fontWeight : "bolder"}}>{text?.why_choose?.choose_desc}</span>
         </h1>
         </div>
 
@@ -27,7 +29,7 @@ const Action = () => {
             >
               <iframe
                 className="absolute inset-0 w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/43qadMOeSAY"
+                src="https://www.youtube.com/embed/BGm5CIQQXBo"
                 title="YouTube video"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -45,7 +47,7 @@ const Action = () => {
             >
               <iframe
                 className="absolute inset-0 w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/AghyCNo0veM"
+                src="https://www.youtube.com/embed/43qadMOeSAY" 
                 title="YouTube video"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -63,7 +65,7 @@ const Action = () => {
             >
               <iframe
                 className="absolute inset-0 w-full h-full rounded-lg"
-                src="https://youtube.com/embed/QVUSv56Rpbo"
+                src="https://www.youtube.com/embed/AghyCNo0veM"
                 title="YouTube video"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -100,13 +100,13 @@ const Header = () => {
                 {lang !== "en" && (
                   <button onClick={() => changeLang("en")}>
                     <img src="https://img.freepik.com/free-vector/illustration-uk-flag_53876-18166.jpg"
-                      className="w-8 h-8 rounded-full" />
+                      className="w-10 h-10 shadow rounded-full" />
                   </button>
                 )}
                 {lang !== "kh" && (
                   <button onClick={() => changeLang("kh")}>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg"
-                      className="w-8 h-8 rounded-full" />
+                      className="w-10 h-10 shadow rounded-full" />
                   </button>
                 )}
               </div>

@@ -7,12 +7,12 @@ import { LanguageContext } from '../context/LanguageContext'
 const WorkFlow = () => {
   const { text,} = useContext(LanguageContext);
   return (
-    <div className="container-fluid mt-5 font-stack"  style={{
+    <div className="container-fluid mt-15 font-stack"  style={{
             backgroundColor: "var(--bg-color)",
             color: "var(--nav-text)",
           }} >
       <h1 className="text-center text-4xl " style={{fontWeight : 'bolder' , fontSize : '50px'}}>
-        {text.workflow}
+        <span className='text-pink-500' style={{fontWeight : 'bolder' , fontSize : '50px'}}>Work</span> Flow
       </h1>
 
       <div className="w-full  py-10">
@@ -28,21 +28,21 @@ const WorkFlow = () => {
                 data-aos-delay="100"
                 data-aos-easing="ease-in-out">
             <h2 className="text-center text-blue-500 font-black text-lg mb-4" >
-              {text.befor_boost}
+              {text?.workflow?.beforeboost?.before_title}
             </h2>
            
             <ul className="space-y-2">
               <li className="flex items-center gap-2 text-gray-500">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                {text.check}
+                {text?.workflow?.beforeboost?.check_page}
               </li>
               <li className="flex items-center gap-2 text-gray-500">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                Checking Ads Account
+                {text?.workflow?.beforeboost?.check_ads}
               </li>
               <li className="flex items-center gap-2 text-gray-500">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                Checking content/video quality before boosting  
+                {text?.workflow?.beforeboost?.check_content}  
               </li>
             </ul>
           </div>
@@ -58,20 +58,20 @@ const WorkFlow = () => {
                 >
             <h2 className="text-center text-blue-500 font-semibold text-lg mb-4" 
             >
-              During Boosting
+              {text?.workflow?.during_boosting?.during_title}
             </h2>
             <ul className="space-y-2">
               <li className="flex items-center gap-2 text-gray-500">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                Checking Ads Performance
+                {text?.workflow?.during_boosting?.check_ads_perfor}
               </li>
               <li className="flex items-center gap-2 text-gray-500">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                Adjusting Performance
+                {text?.workflow?.during_boosting?.adj_perfor}
               </li>
               <li className="flex items-center gap-2 text-gray-500">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                Reporting to client
+                {text?.workflow?.during_boosting?.report_client}
               </li>
             </ul>
           </div>
@@ -85,20 +85,20 @@ const WorkFlow = () => {
                 data-aos-delay="500"
                 data-aos-easing="ease-in-out">
             <h2 className="text-center text-blue-500 font-semibold text-lg mb-4">
-              After Boosting
+              {text?.workflow?.after_boosting?.after_boosting_title}
             </h2>
             <ul className="space-y-2">
               <li className="flex items-center gap-2 text-gray-500">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                Setting next objectives
+                {text?.workflow?.after_boosting?.setting_next_objectives}
               </li>
               <li className="flex items-center gap-2 text-gray-500">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                Report to client
+                {text?.workflow?.after_boosting?.after_report_client}
               </li>
               <li className="flex items-center gap-2 text-gray-500">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                Research & Development (R&D)
+                {text?.workflow?.after_boosting?.research}
               </li>
             </ul>
           </div>
