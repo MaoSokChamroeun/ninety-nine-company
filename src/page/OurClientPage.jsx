@@ -82,29 +82,46 @@ const OurClientPage = () => {
           onClick={() => setSelectedClient(null)}
         >
           <div
-            className="bg-white max-w-3xl w-full rounded-2 p-6 relative"
+            className="bg-white
+                      max-w-xl
+                      w-full
+                      max-h-[90vh]
+                      overflow-y-auto
+                      rounded-2xl
+                      p-6
+                      relative"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Close */}
             <button
-              className="absolute top-3 right-3 text-gray-500 hover:text-black text-xl"
+              className="absolute top-3 right-3 text-gray-500 hover:text-black text-xl bg-scroll"
               onClick={() => setSelectedClient(null)}
             >
               ✕
             </button>
 
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center">
               <img
                 src={selectedClient.image}
                 alt={selectedClient.name}
-                className="w-32 h-32 object-contain mb-4 rounded-full"
+                className="w-24 h-24
+                          sm:w-32 sm:h-32
+                          object-contain
+                          mb-4
+                          rounded-full"
               />
 
-              <h2 className="text-2xl font-bold text-black">
+              <h2 className="text-2xl font-bold text-black text-center">
                 {selectedClient.name}
               </h2>
 
-              <p className="mt-3 text-black">
+              <p className="mt-3
+                          text-black
+                          max-h-32
+                          sm:max-h-40
+                          overflow-y-auto
+                          text-center
+                          px-2 scrollbar-thin scrollbar-thumb-gray-400">
                 {selectedClient.description || 'Client description goes here.'}
               </p>
             </div>

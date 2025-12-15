@@ -23,7 +23,7 @@ const GraphicDesign = () => {
                     data-aos-duration="700"
                     data-aos-delay="700"
                     data-aos-easing="ease-in-out" key={items.id}>
-                        <img src={items.poster} alt="" className='w-full object-cover' data-aos="fade-up"
+                        <img src={items.poster} alt="" className='w-full object-cover rounded-2xl' data-aos="fade-up"
                  />
                         </div>
                     ))

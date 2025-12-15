@@ -6,11 +6,12 @@ const Action = () => {
       <div className="max-w-[1500px] mx-auto flex flex-col lg:flex-row gap-10">
 
         {/* LEFT TEXT */}
-        <div className="max-w-sm flex justify-center items-center">
-          <h1 className="text-center text-3xl font-bold">       
+        <div className="max-w-sm flex justify-center items-center text-center lg:text-left">
+        <h1 className="text-center lg:text-left text-3xl font-bold">
             Some activities recorded directly to the customer's location
-          </h1>
+        </h1>
         </div>
+
 
         {/* RIGHT VIDEOS */}
         <div className="max-w-7xl mt-10 mx-auto">
