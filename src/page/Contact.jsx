@@ -79,7 +79,7 @@ const Contact = () => {
                 <div className="text-right">
                   <button
                     type="submit"
-                    className="px-6 py-2 bg-pink-600 text-white font-semibold rounded-md hover:bg-pink-700 transition"
+                    className="px-6  py-2 bg-pink-600 roue text-white font-semibold hover:bg-pink-700 transition"
                   >
                     Contact
                   </button>

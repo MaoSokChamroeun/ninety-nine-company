@@ -23,7 +23,7 @@ const Upgrade = () => {
             data-aos-duration="600"
             data-aos-delay="600"
             data-aos-easing="ease-in-out">
-                <img src={cover} alt="" />
+                <img src={cover} alt="" className='rounded-2xl' />
               </div>
             </div>
         </div>
