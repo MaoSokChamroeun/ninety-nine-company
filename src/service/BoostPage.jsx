@@ -9,7 +9,7 @@ const BoostPage = () => {
                 <h1 className='text-center' style={{fontWeight : 'bolder'}} data-aos="fade-up"
                 data-aos-duration="300"
                 data-aos-delay="300"
-                data-aos-easing="ease-in-out"><span className='text-pink-500' style={{fontWeight : 'bolder'}}>Boost</span> Posts</h1>
+                data-aos-easing="ease-in-out" ><span className='text-pink-500' style={{fontWeight : 'bolder'}}>Boost</span> Posts</h1>
                 <p className='text-center' data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="500"

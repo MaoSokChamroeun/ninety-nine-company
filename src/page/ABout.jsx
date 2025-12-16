@@ -103,9 +103,18 @@ const ABout = () => {
         </div>
 
         <div className="our-vistion w-full mt-5">
-           <h1 className='text-center' style={{fontWeight : "bolder"}}><span className='text-pink-500' style={{fontWeight : "bolder"}}>Our</span> Vistion</h1>
-           <p className='text-center max-w-4xl mx-auto'>
-                    {text?.our_vision?.vision_desc}
+           <h1 className='text-center' style={{fontWeight : "bolder"}} data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out"><span className='text-pink-500' style={{fontWeight : "bolder"}} data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out">Our</span> Vistion</h1>
+           <p className='text-center max-w-4xl mx-auto' data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="500"
+            data-aos-easing="ease-in-out">
+            {text?.our_vision?.vision_desc}
            </p>
         </div>
       </div>

@@ -21,6 +21,7 @@ import Consolting from './service/Consolting'
 import BoostTiktok from './service/BoostTiktok'
 import Photograper from './service/Instagram'
 import Instagram from './service/Instagram'
+import BoostLive from './service/BoostLive'
 
 function App() {
    useEffect(() => {
@@ -43,6 +44,7 @@ function App() {
          <Route path='/service/consulting' element = {<Consolting />} />
          <Route path='/service/boost-tiktok' element = {<BoostTiktok />} />
          <Route path='/service/boost-ig' element = {<Instagram />} />
+         <Route path='/service/boost-live' element = {<BoostLive />}  />
       </Routes>
     </BrowserRouter>
   )
