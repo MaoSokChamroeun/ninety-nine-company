@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import cover1 from '../assets/cover4.jpg';
-import cover2 from '../assets/cover2.jpg'
-import '../index.css'
+import cover2 from '../assets/cover2.jpg';
+import cover3 from  '../assets/cover2.jpg'
+import '../index.css';
 const slides = [
   cover1,
-  cover2
+  cover2,
+  cover3
 ];
 
 const ImageSlider = () => {
