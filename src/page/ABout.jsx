@@ -89,7 +89,7 @@ const ABout = () => {
                       data-aos-delay="500"
                       data-aos-easing="ease-in-out">
                         <div className="icon flex justify-center p-3">
-                            <span><img src={items.icon} alt="" width={50} /></span>
+                            <span><img src={items.icon} alt="" width={50} className='rounded-full' /></span>
                         </div>
                         <p className='text-center text-2xl'>{text?.ourmision?.[items.section]?.[items.titleKey]}</p>
                             <div className='text-center' >

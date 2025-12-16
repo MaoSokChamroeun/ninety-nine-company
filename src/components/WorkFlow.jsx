@@ -27,8 +27,8 @@ const WorkFlow = () => {
                 data-aos-duration="300"
                 data-aos-delay="100"
                 data-aos-easing="ease-in-out">
-            <h2 className="text-center text-blue-500 font-black text-lg mb-4" >
-              {text?.workflow?.beforeboost?.before_title}
+            <h2 className=" text-center text-lg mb-4" >
+              <span className='text-pink-500' style={{fontWeight : "bolder"}}>{text?.workflow?.beforeboost?.before_title}</span>
             </h2>
            
             <ul className="space-y-2">
@@ -56,9 +56,9 @@ const WorkFlow = () => {
                 data-aos-delay="300"
                 data-aos-easing="ease-in-out"
                 >
-            <h2 className="text-center text-blue-500 font-semibold text-lg mb-4" 
+            <h2 className="text-center font-semibold text-lg mb-4" 
             >
-              {text?.workflow?.during_boosting?.during_title}
+              <span className='text-pink-500' style={{fontWeight : "bolder"}}>{text?.workflow?.beforeboost?.before_title}</span>
             </h2>
             <ul className="space-y-2">
               <li className="flex items-center gap-2 text-gray-500">
@@ -84,8 +84,8 @@ const WorkFlow = () => {
                 data-aos-duration="300"
                 data-aos-delay="500"
                 data-aos-easing="ease-in-out">
-            <h2 className="text-center text-blue-500 font-semibold text-lg mb-4">
-              {text?.workflow?.after_boosting?.after_boosting_title}
+            <h2 className="text-center  font-semibold text-lg mb-4">
+              <span className='text-pink-500' style={{fontWeight : "bolder"}}>{text?.workflow?.during_boosting?.during_title}</span>
             </h2>
             <ul className="space-y-2">
               <li className="flex items-center gap-2 text-gray-500">

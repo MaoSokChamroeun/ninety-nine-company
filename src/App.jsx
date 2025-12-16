@@ -17,6 +17,10 @@ import TelegramIcon from './components/TelegramIcon'
 import ScrollToTop from './components/ScrollToTop'
 import OurClientPage from './page/OurClientPage'
 import BlueStic from './service/BlueStic'
+import Consolting from './service/Consolting'
+import BoostTiktok from './service/BoostTiktok'
+import Photograper from './service/Instagram'
+import Instagram from './service/Instagram'
 
 function App() {
    useEffect(() => {
@@ -36,6 +40,9 @@ function App() {
          <Route path='/service/upgrade-page' element = {<Upgrade />} />
          <Route path='/our-client' element = {<OurClientPage />} />
          <Route path='/service/bluestic-verify' element = {<BlueStic />} />
+         <Route path='/service/consulting' element = {<Consolting />} />
+         <Route path='/service/boost-tiktok' element = {<BoostTiktok />} />
+         <Route path='/service/boost-ig' element = {<Instagram />} />
       </Routes>
     </BrowserRouter>
   )

@@ -5,7 +5,7 @@ import icon4 from "../assets/icon_GIF/hands-wrench.gif";
 import icon5 from "../assets/icon_GIF/live.gif";
 import icon6 from "../assets/icon_GIF/rocket.gif";
 import icon7 from "../assets/icon_GIF/video.gif";
-import icon8 from "../assets/icon_GIF/photo-camera.gif";
+import icon8 from "../assets/icon_GIF/social.png";
 
 const services = [
   {
@@ -32,9 +32,9 @@ const services = [
   {
     id: 4,
     icon: icon8,
-    link: "/service/photographer",
-    titleKey: "services.photo.title",
-    descKey: "services.photo.desc",
+    link: "/service/boost-ig",
+    titleKey: "services.instagram.title",
+    descKey: "services.instagram.desc",
   },
   {
     id: 5,

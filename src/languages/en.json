@@ -3,33 +3,31 @@
   "about": "About Us",
   "service": "Service",
   "ourclient" : "Our Client",
-  "service1": "Boots Page",
-  "service2": "Boots Tiktok",
-  "service3": "Boots Live",
+  
   "contact": "Contact Us",
   "why_choose" : {
-    "choose_title" : "Why",
-    "choose_middle" : "Choose",
-    "choose_desc" : "Ninety Nine ?"
-  },
+    "choose_title" : "Activities",
+    "choose_middle" : "On-site filming at the location by",
+    "choose_desc" : "Ninety Nine"
+  },  
   "workflow" : {
     "beforeboost" : {
-      "before_title" : "Before Boosting",
-      "check_page" : "Check Page",
-      "check_ads" : "Checking Ads Account",
-      "check_content" : "Checking content/video quality before boosting"
+      "before_title" : "Project Planning",
+      "check_page" : "Discuss and analyze client requirements",
+      "check_ads" : "Create and properly set up advertising accounts (Ad Accounts)",
+      "check_content" : "Define advertising goals and marketing strategies"
     },
     "during_boosting" : {
-      "during_title" : "During Boosting",
-      "check_ads_perfor" : "Checking Ads Performance",
-      "adj_perfor" : "Adjusting Performance",
-      "report_client" : "Reporting to client"
+      "during_title" : "Work Execution",
+      "check_ads_perfor" : "Prepare appropriate content and creative designs",
+      "adj_perfor" : "Launch and manage advertising campaigns",
+      "report_client" : "Monitor performance and continuously optimize campaigns"
     },
     "after_boosting" : {
-      "after_boosting_title" : "After Boosting",
-      "setting_next_objectives" : "Setting next objectives",
-      "after_report_client" : "Report to client",
-      "research" : "Research & Development (R&D)"
+      "after_boosting_title" : "Evaluation & Reporting",
+      "setting_next_objectives" : "Analyze advertising performance and results",
+      "after_report_client" : "Provide detailed reports to clients",
+      "research" : "Offer recommendations and improvement strategies"
     }
   },
   
@@ -39,12 +37,15 @@
     "business_desc" : "We help brands reach the right audience through creative, data-driven advertising that delivers real results."
   },
 
-  "service4" : "Graphic Design",
-  "service5" : "Video Editing",
-  "service6" : "Upgrade Page",
-  "service7" : "Consulting",
-  "service8" : "Bluetick Verify",
-  "service9" : "Photograper",
+  "service1": "Boots Page",
+  "service2": "Boots Tiktok",
+  "service3": "Boots Live",
+  "service4" : "Boost-Instagram",
+  "service5" : "Graphic Design",
+  "service6" : "Video Editing",
+  "service7" : "Upgrade Page",
+  "service8" : "Consulting",
+  "service9" : "Bluetick Verify",
   "services": {
     "consulting": {
       "title": "Consulting",
@@ -58,9 +59,9 @@
       "title": "Graphic Design",
       "desc": "Professional graphic design services for logos, posters, banners, and branding artwork."
     },
-    "photo": {
-      "title": "Photographer",
-      "desc": "High-quality photography for products, events, and personal portrait sessions."
+    "instagram": {
+      "title": "Instagram",
+      "desc": "Creative visuals optimized for Instagram growth."
     },
     "upgrade": {
       "title": "Upgrade Page",

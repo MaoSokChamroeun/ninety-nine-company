@@ -33,27 +33,28 @@ export const SERVICE_NAV = [
     label: "service3",
   },
   {
-    path: "/service/design",
-    label: "service4",
+    path : "/service/boost-ig",
+    label : "service4"
   },
   {
-    path: "/service/video-editing",
+    path: "/service/design",
     label: "service5",
   },
   {
-    path: "/service/upgrade-page",
+    path: "/service/video-editing",
     label: "service6",
   },
   {
-    path : "/service/consulting",
-    label : "service7"
+    path: "/service/upgrade-page",
+    label: "service7",
   },
   {
-    path : "/service/bluestic-verify",
+    path : "/service/consulting",
     label : "service8"
   },
   {
-    path : "/service/photograper",
+    path : "/service/bluestic-verify",
     label : "service9"
-  }
+  },
+  
 ];
