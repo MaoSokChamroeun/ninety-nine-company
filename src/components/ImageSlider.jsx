@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import cover1 from '../assets/cover4.jpg';
 import cover2 from '../assets/cover2.jpg';
-import cover3 from  '../assets/cover2.jpg'
 import '../index.css';
 const slides = [
   cover1,
-  cover2,
-  cover3
+  cover2
 ];
 
 const ImageSlider = () => {
@@ -17,7 +15,7 @@ const ImageSlider = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent((prev) => (prev === length - 1 ? 0 : prev + 1));
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(timer);
   }, [length]);
