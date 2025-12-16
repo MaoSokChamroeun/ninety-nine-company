@@ -7,6 +7,10 @@ import i6 from '../assets/poster/poster6_de.png'
 import i7 from '../assets/poster/poster7_de.png'
 import i8 from '../assets/poster/potser8_de.png'
 import i9 from '../assets/poster/poster9_de.png'
+import i10 from '../assets/poster/art_1.png'
+import i11 from '../assets/poster/art_2.png'
+import i12 from '../assets/poster/art_3.png'
+import i13 from '../assets/poster/art_4.png' 
 
 const designers = [
     {
@@ -44,6 +48,22 @@ const designers = [
     {
         id : 9,
         poster : i9
+    },
+    {
+        id : 10,
+        poster : i10
+    },
+    {
+        id : 11,
+        poster : i11
+    },
+    {
+        id : 12 ,
+        poster : i12
+    },
+    {
+        id : 13,
+        poster : i13
     }
 ];
 
