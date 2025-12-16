@@ -19,7 +19,7 @@ const BoostLive = () => {
                         data-aos-easing="ease-in-out">
                         Boost your live stream to reach more viewers and drive real-time engagement.Increase live visibility and engagement 
                         with targeted boost strategies.Enhance live reach, attract the right audience, 
-                        and maximize interaction.Expand live reach and boost real-time engagement.Boost live visibility and engagement.
+                        and maximize interaction.Expand live reach and boost real-time engagement.
                     </p>
                 </div>
             </div>
