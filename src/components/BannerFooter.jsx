@@ -25,19 +25,13 @@ const BannerFooter = () => {
             data-aos-easing="ease-in-out">{text?.business?.business_title_next}</span>
     </h2>
 
-    <p className="mt-4 text-md">
-      {text?.business?.business_desc}
+    <p className="mt-4 text-md" 
+            data-aos = "fade-up"
+            data-aos-duration="450"
+            data-aos-delay="450"
+            data-aos-easing="ease-in-out">
+          {text?.business?.business_desc}
     </p>
-
-    <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-      {/* <button className="px-8 py-3 bg-pink-600 hover:bg-white hover:text-black rounded-lg font-semibold transition">
-        Get Started
-      </button> */}
-
-      {/* <button className="px-8 py-3 border 0 bg-white border-white hover:bg-white hover:text-black rounded-lg font-semibold transition">
-        <Link to = {'/contact'} className='text-black text-decoration-none'>Contact Us</Link>
-      </button> */}
-    </div>
   </div>
 </div>
 
