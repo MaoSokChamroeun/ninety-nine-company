@@ -9,8 +9,8 @@ const Action = () => {
 
         {/* LEFT TEXT */}
         <div className="max-w-sm  flex justify-center items-center text-center lg:text-left">
-        <h1 className=" lg:text-left text-6xl ">
-            <span className="text-6xl text-pink-500 " >{text?.why_choose?.choose_title} <br></br>{text?.why_choose?.choose_middle} <br></br></span> <span style={{fontWeight : "bolder"}}>{text?.why_choose?.choose_desc}</span>
+        <h1 className=" lg:text-left text-6xl p-8">
+            <span className="text-6xl text-pink-500 ">{text?.why_choose?.choose_title} <br></br> {text?.why_choose?.choose_middle} <br></br> </span> <span style={{fontWeight : "bolder"}}>{text?.why_choose?.choose_desc}</span>
         </h1>
         </div>
 

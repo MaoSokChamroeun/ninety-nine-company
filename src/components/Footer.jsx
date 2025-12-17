@@ -40,8 +40,8 @@ const Footer = () => {
             <p className="font-bold text-lg">Information</p>
 
             <ul className="mt-3 space-y-2">
-              <li className=''><a href="#" className=" footer-color font-semibold text-decoration-none ">About Company</a></li>
-              <li><a href="#" className="footer-color font-semibold text-decoration-none">Contact Us</a></li>
+              <li className=''><Link to = {'/about'} className=" footer-color font-semibold text-decoration-none ">About Company</Link></li>
+              <li><Link to={'/contact'} className="footer-color font-semibold text-decoration-none">Contact Us</Link></li>
             </ul>
           </div>
 

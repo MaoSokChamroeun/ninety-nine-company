@@ -91,7 +91,7 @@ const Header = () => {
               </NavLink>
 
               {/* Dark mode */}
-              <div className="ml-3">
+              <div className="ml-2 flex items-center">
                 <DarkModeToggle />
               </div>
 
