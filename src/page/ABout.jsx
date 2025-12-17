@@ -13,7 +13,7 @@ const ABout = () => {
         data-aos ="fade-up" 
         data-aos-duration="300"
         data-aos-delay="300"
-        data-aos-easing="ease-in-out">ABout Company</p>
+        data-aos-easing="ease-in-out">ABout</p>
 
         <div className="our-team max-w-xxl mx-auto"
         data-aos ="fade-up" 
