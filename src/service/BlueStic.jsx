@@ -20,7 +20,7 @@ const BlueStic = () => {
             We help you meet platform requirements and submit applications for that prestigious blue checkmark.</p>
             
           </div>
-          <div className="max-w-7xl mx-auto" data-aos="fade-up"
+          <div className="max-w-7xl mx-auto p-4" data-aos="fade-up"
             data-aos-duration="600"
             data-aos-delay="600"
             data-aos-easing="ease-in-out">

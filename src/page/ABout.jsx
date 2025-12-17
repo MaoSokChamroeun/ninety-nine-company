@@ -85,9 +85,9 @@ const ABout = () => {
                     {
                       ourmisssions.map((items) => (
                         <div className='max-w-xl  mx-auto p-4 rounded-2xl' data-aos ="fade-up" 
-                      data-aos-duration="500"
-                      data-aos-delay="500"
-                      data-aos-easing="ease-in-out">
+                            data-aos-duration="500"
+                            data-aos-delay="500"
+                            data-aos-easing="ease-in-out" key={items.id}>
                         <div className="icon flex justify-center p-3">
                             <span><img src={items.icon} alt="" width={50} className='rounded-full' /></span>
                         </div>
