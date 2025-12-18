@@ -8,7 +8,7 @@ const OurClientPage = () => {
   return (
     <Layout>
       <div className="max-w-7xl mx-auto mt-30 px-4">
-        {/* Header */}
+        
         <div className="text-center">
           <h1 className="text-5xl md:text-7xl lg:text-[120px] font-extrabold" style={{fontSize : "120px" , fontWeight : 'bolder'}} data-aos="fade-up"
             data-aos-duration="300"
@@ -75,7 +75,6 @@ const OurClientPage = () => {
         </div>
       </div>
 
-      {/* MODAL */}
       {selectedClient && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4"
