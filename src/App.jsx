@@ -48,6 +48,7 @@ function App() {
          <Route path='/service/boost-ig' element = {<Instagram />} />
          <Route path='/service/boost-live' element = {<BoostLive />}  />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   )
 }
