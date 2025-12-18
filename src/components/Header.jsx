@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 import DarkModeToggle from "./DarkModeToggle";
 import '../App.css'
 import { MAIN_NAV , SERVICE_NAV } from "../data/navigations";
+import { RxHamburgerMenu } from "react-icons/rx";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false); // Mobile menu
   const [serviceOpen, setServiceOpen] = useState(false); // Service dropdown
@@ -14,38 +15,145 @@ const Header = () => {
   return (
     <div className="fixed-top">
       <nav
-          className={`shadow-md p-2 ${
-            lang === "kh" ? "font-khmer" : "font-outfit"
+          className={`shadow-md p-2 tracking-wide ${
+            lang === "kh" ? "font-khmer" : "font-josefin"
           }`}
-          style={{ backgroundColor: "var(--nav-bg)" }}
+          style={{ backgroundColor: "var(--nav-bg)" , fontSize  : "13.5px" , fontWeight : "600"}}
         >
+        <div className="w-full">
+          <div className="max-w-7xl mx-auto px-2 sm:px-10 lg:px-10">
+            <div className="grid grid-cols-[120px_1fr_120px] items-center justify-between h-16">
+              <div className="flex items-center">
+                <NavLink to="/">
+              <img
+                src={logo}
+                alt="Logo"
+                className="w-14 h-14 rounded-full"
+              />
+            </NavLink>
+          </div>
+          <div className="hidden md:flex justify-center items-center space-x-2">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                `nav-link px-3 py-2 uppercase ${
+                  isActive ? "active-link" : ""
+                }`
+              }
+            >
+              {text.home}
+            </NavLink>
 
-        <div className="max-w-7xl mx-auto px-2 sm:px-10 lg:px-10">
-          <div className="flex justify-between items-center h-16">
-            {/* Logo */}
-            <div className="shrink-0 flex items-center">
-              <NavLink to="/">
-                <img 
-                  src={logo}
-                  alt="Logo"
-                  className="w-14 h-14 rounded-full"
-                />
-              </NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                `nav-link px-3 py-2 uppercase ${
+                  isActive ? "active-link" : ""
+                }`
+              }
+            >
+              {text.about}
+            </NavLink>
+            <div className="relative">
+              <button
+                onClick={() => setServiceOpen(!serviceOpen)}
+                className="nav-link px-3 py-2 flex items-center uppercase"
+              >
+               <span className="uppercase">{text.service}</span>
+                <span className="ml-1 text-xs">
+                  {serviceOpen ? "▲" : "▼"}
+                </span>
+              </button>
+
+              {serviceOpen && (
+                <div className="absolute left-0 mt-2 w-60 bg-white dark:bg-slate-900 rounded-xl shadow-lg z-50">
+                  {SERVICE_NAV.map((item) => (
+                    <NavLink
+                      key={item.path}
+                      to={item.path}
+                      className="text-black text-decoration-none block px-4 py-2 uppercase hover:bg-gray-100 dark:hover:bg-slate-800"
+                      onClick={() => setServiceOpen(false)}
+                    >
+                      {text[item.label]}
+                    </NavLink>
+                  ))}
+                </div>
+              )}
             </div>
 
-            {/* Desktop Menu */}
-            <div className="hidden md:flex md:items-center space-x-2">
-              
-              {/* Home */}
-              <NavLink to="/" className={({ isActive }) =>
-                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+            <NavLink
+              to="/our-client"
+              className={({ isActive }) =>
+                `nav-link px-3 py-2 uppercase ${
+                  isActive ? "active-link" : ""
+                }`
+              }
+            >
+              {text.ourclient}
+            </NavLink>
+
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                `nav-link px-3 py-2 uppercase ${
+                  isActive ? "active-link" : ""
+                }`
+              }
+            >
+              {text.contact}
+            </NavLink>
+
+          </div>
+
+         {/* RIGHT: Dark Mode + Language (Desktop) */}
+          <div className="hidden md:flex justify-end items-center gap-3">
+            <DarkModeToggle />
+
+            {lang !== "en" && (
+              <button onClick={() => changeLang("en")}>
+                <img
+                  src="https://img.freepik.com/free-vector/illustration-uk-flag_53876-18166.jpg"
+                  className="w-9 h-9 rounded-full shadow"
+                  alt="EN"
+                />
+              </button>
+            )}
+
+            {lang !== "kh" && (
+              <button onClick={() => changeLang("kh")}>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg"
+                  className="w-9 h-9 rounded-full shadow"
+                  alt="KH"
+                />
+              </button>
+            )}
+          </div>
+
+          {/* MOBILE BURGER (SAME COLUMN) */}
+          <div className="md:hidden flex justify-end w-full col-start-3">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+            >
+             <RxHamburgerMenu size={20} />
+            </button>
+          </div>
+
+
+          </div>
+        </div>
+      </div>
+        {isOpen && (
+          <div className="md:hidden px-3 pt-2 pb-4 space-y-1">
+            <NavLink to="/" className={({ isActive }) =>
+                `nav-link px-3 uppercase py-2 ${isActive ? "active-link" : ""}`
               }>
                 {text.home}
               </NavLink>
 
               {/* About */}
               <NavLink to="/about" className={({ isActive }) =>
-                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+                `nav-link px-3 uppercase py-2 ${isActive ? "active-link" : ""}`
               }>
                 {text.about}
               </NavLink>
@@ -56,7 +164,7 @@ const Header = () => {
                   onClick={() => setServiceOpen(!serviceOpen)}
                   className="nav-link px-3 py-2 flex items-center"
                 >
-                  {text.service}
+                  <span className="uppercase"></span>
                   <span className="ml-1 text-xs">{serviceOpen ? "▲" : "▼"}</span>
                 </button>
 
@@ -78,134 +186,14 @@ const Header = () => {
 
               {/* Our Client */}
               <NavLink to="/our-client" className={({ isActive }) =>
-                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+                `nav-link px-3 uppercase py-2 ${isActive ? "active-link" : ""}`
               }>
                 {text.ourclient}
               </NavLink>
 
               {/* Contact */}
               <NavLink to="/contact" className={({ isActive }) =>
-                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
-              }>
-                {text.contact}
-              </NavLink>
-
-              {/* Dark mode */}
-              <div className="ml-2 flex items-center">
-                <DarkModeToggle />
-              </div>
-
-              {/* Language */}
-              <div className="flex space-x-2 ml-4">
-                {lang !== "en" && (
-                  <button onClick={() => changeLang("en")}>
-                    <img src="https://img.freepik.com/free-vector/illustration-uk-flag_53876-18166.jpg"
-                      className="w-10 h-10 shadow rounded-full" />
-                  </button>
-                )}
-                {lang !== "kh" && (
-                  <button onClick={() => changeLang("kh")}>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg"
-                      className="w-10 h-10 shadow rounded-full" />
-                  </button>
-                )}
-              </div>
-
-            </div>
-
-
-            {/* Mobile Hamburger */}
-            <div className="md:hidden flex items-center">
-              <button
-                onClick={() => setIsOpen(!isOpen)}
-                className="focus:outline-none"
-              >
-                {isOpen ? (
-                  <svg
-                    className="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                ) : (
-                  <svg
-                    className="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M4 8h16M4 16h16"
-                    />
-                  </svg>
-                )}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Mobile Menu */}
-        {isOpen && (
-          <div className="md:hidden px-3 pt-2 pb-4 space-y-1">
-            <NavLink to="/" className={({ isActive }) =>
-                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
-              }>
-                {text.home}
-              </NavLink>
-
-              {/* About */}
-              <NavLink to="/about" className={({ isActive }) =>
-                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
-              }>
-                {text.about}
-              </NavLink>
-
-              {/* Service Dropdown */}
-              <div className="relative">
-                <button
-                  onClick={() => setServiceOpen(!serviceOpen)}
-                  className="nav-link px-3 py-2 flex items-center"
-                >
-                  {text.service}
-                  <span className="ml-1 text-xs">{serviceOpen ? "▲" : "▼"}</span>
-                </button>
-
-                {serviceOpen && (
-                  <div className="absolute left-0 mt-2 w-60 bg-white dark:bg-slate-900 rounded-xl shadow-lg z-50">
-                    {SERVICE_NAV.map((item) => (
-                      <NavLink
-                        key={item.path}
-                        to={item.path}
-                        className="text-black block px-4 py-2 hover:bg-gray-100 dark:hover:bg-slate-800  text-decoration-none"
-                        onClick={() => setServiceOpen(false)}
-                      >
-                        {text[item.label]}
-                      </NavLink>
-                    ))}
-                  </div>
-                )}
-              </div>
-
-              {/* Our Client */}
-              <NavLink to="/our-client" className={({ isActive }) =>
-                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
-              }>
-                {text.ourclient}
-              </NavLink>
-
-              {/* Contact */}
-              <NavLink to="/contact" className={({ isActive }) =>
-                `nav-link px-3 py-2 ${isActive ? "active-link" : ""}`
+                `nav-link px-3 uppercase py-2 ${isActive ? "active-link" : ""}`
               }>
                 {text.contact}
               </NavLink>
