@@ -1,6 +1,7 @@
 import React from 'react'       // <-- ADD THIS
 import './index.css'
 import { BrowserRouter , Routes , Route } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import Header from './components/Header'
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,6 +30,7 @@ function App() {
   }, []);
   return (
       <BrowserRouter>
+      <Analytics />
       <ScrollToTop />
       <TelegramIcon />
         <Routes>
