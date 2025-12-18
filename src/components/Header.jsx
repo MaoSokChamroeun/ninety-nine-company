@@ -105,7 +105,6 @@ const Header = () => {
 
           </div>
 
-         {/* RIGHT: Dark Mode + Language (Desktop) */}
           <div className="hidden md:flex justify-end items-center gap-3">
             <DarkModeToggle />
 
@@ -158,13 +157,13 @@ const Header = () => {
                 {text.about}
               </NavLink>
 
-              {/* Service Dropdown */}
+              
               <div className="relative">
                 <button
                   onClick={() => setServiceOpen(!serviceOpen)}
                   className="nav-link px-3 py-2 flex items-center"
                 >
-                  <span className="uppercase"></span>
+                  <span className="uppercase">{text.service}</span>
                   <span className="ml-1 text-xs">{serviceOpen ? "▲" : "▼"}</span>
                 </button>
 
