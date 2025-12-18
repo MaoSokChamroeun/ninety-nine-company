@@ -26,8 +26,8 @@ const OurSerive = () => {
             data-aos-duration="1000"
           >
       <div className="icon w-full flex justify-center">
-        <span>
-          <img src={service.icon} alt='GIF' width={60} className="bg-white-500 shadow p-2 rounded-4xl" />
+        <span className="p-2">
+          <img src={service.icon} alt='GIF' width={60} className="bg-white-500 shadow p-1 rounded-4xl" />
         </span>
       </div>
 
