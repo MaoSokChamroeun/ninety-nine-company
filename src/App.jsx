@@ -29,22 +29,22 @@ function App() {
   }, []);
   return (
       <BrowserRouter>
-      <ScrollToTop />
-      <TelegramIcon />
-        <Routes>
-        <Route path='/' element = {<Home />} />
-        <Route path='/about' element = {<ABout />} />
-        <Route path='/contact' element = {<Contact />} />
-        <Route path='/service/design' element = {<GraphicDesign />} />
-         <Route path='/service/video-editing' element = {<VideoEditing />} />
-         <Route path='/service/boost-post' element = {<BoostPage />} />
-         <Route path='/service/upgrade-page' element = {<Upgrade />} />
-         <Route path='/our-client' element = {<OurClientPage />} />
-         <Route path='/service/bluestic-verify' element = {<BlueStic />} />
-         <Route path='/service/consulting' element = {<Consolting />} />
-         <Route path='/service/boost-tiktok' element = {<BoostTiktok />} />
-         <Route path='/service/boost-ig' element = {<Instagram />} />
-         <Route path='/service/boost-live' element = {<BoostLive />}  />
+        <ScrollToTop />
+          <TelegramIcon />
+              <Routes>
+              <Route path='/' element = {<Home />} />
+              <Route path='/about' element = {<ABout />} />
+              <Route path='/contact' element = {<Contact />} />
+              <Route path='/service/design' element = {<GraphicDesign />} />
+              <Route path='/service/video-editing' element = {<VideoEditing />} />
+              <Route path='/service/boost-post' element = {<BoostPage />} />
+              <Route path='/service/upgrade-page' element = {<Upgrade />} />
+              <Route path='/our-client' element = {<OurClientPage />} />
+              <Route path='/service/bluestic-verify' element = {<BlueStic />} />
+              <Route path='/service/consulting' element = {<Consolting />} />
+              <Route path='/service/boost-tiktok' element = {<BoostTiktok />} />
+              <Route path='/service/boost-ig' element = {<Instagram />} />
+              <Route path='/service/boost-live' element = {<BoostLive />}  />
       </Routes>
     </BrowserRouter>
   )

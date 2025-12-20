@@ -7,6 +7,7 @@ import OurWork from "./OurWork";
 import OurClient from "./OurClient";
 import BannerFooter from "./BannerFooter";
 import Action from "./Action";
+import ButtonScrollTop from "./ButtonScrollTop";
 
 const Home = () => {
 
@@ -19,9 +20,9 @@ const Home = () => {
       <Action />
       <WorkFlow />
       <OurClient />
-     
       <OurWork />
-       <BannerFooter />
+      <BannerFooter />
+      <ButtonScrollTop />
     </Layout>
   );
 };
