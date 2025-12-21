@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import Layout from '../layout/Layout'
 import { LanguageContext } from '../context/LanguageContext';
+import Image from '../assets/poster/p3.png'
 const BoostLive = () => {
     const {text} = useContext(LanguageContext)
   return (
@@ -21,6 +22,17 @@ const BoostLive = () => {
                         data-aos-easing="ease-in-out">
                         {text?.boost_live?.live_desc}
                     </p>
+                </div>
+
+                <div className="max-w-full"
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                    data-aos-delay="500"
+                    data-aos-easing="ease-in-out"
+                >
+                    <div className="max-w-7xl mx-auto p-2">
+                        <img src={Image} alt="" className='rounded-2xl w-full object-cover' />
+                    </div>
                 </div>
             </div>
         </div>
