@@ -6,7 +6,7 @@ const ImageSliderSource = ({src , alt}) => {
       className="d-block w-100"
       src={src}
       alt={alt}
-      style={{ height: "830px", objectFit: "cover" }}
+      style={{ height: "auto", objectFit: "cover" }}
     />
   )
 }
