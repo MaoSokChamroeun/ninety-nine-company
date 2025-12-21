@@ -27,7 +27,7 @@ const OurSerive = () => {
           >
       <div className="icon w-full flex justify-center">
         <span className="max-w-2xs p-2 bg-white-400 rounded-full shadow">
-          <img src={service.icon} alt='GIF' width={50} className="object-cover" />
+          <img src={service.icon} alt='GIF' width={45} className="object-cover" />
         </span>
       </div>
 
