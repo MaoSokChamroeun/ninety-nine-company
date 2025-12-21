@@ -13,7 +13,7 @@ const ABout = () => {
         data-aos ="fade-up" 
         data-aos-duration="300"
         data-aos-delay="300"
-        data-aos-easing="ease-in-out">ABout</p>
+        data-aos-easing="ease-in-out">About</p>
 
         <div className="our-team max-w-xxl mx-auto"
         data-aos ="fade-up" 
@@ -52,9 +52,7 @@ const ABout = () => {
                   data-aos-delay="600"
                   data-aos-easing="ease-in-out">
                    <span className='text-pink-500' style={{fontWeight : "bolder"}}>Ninety Nine Media & Advertising</span> គឺជាក្រុមការងារទីផ្សារឌីជីថល និងការផ្សព្វផ្សាយសម័យថ្មី ដែលបានបង្កើតឡើងនៅថ្ងៃទី ១០ ខែតុលា ឆ្នាំ ២០២៤ ដោយមានបេសកកម្មជួយអាជីវកម្មនៅក្នុងប្រទេសកម្ពុជាឲ្យអាចរីកចម្រើន ពង្រីក និងលេចធ្លោក្នុងសម័យឌីជីថលដែលមានការផ្លាស់ប្តូរយ៉ាងលឿន។
-
                     យើងប្តេជ្ញាផ្តល់នូវដំណោះស្រាយឌីជីថលដែលមានភាពច្នៃប្រឌិត ទំនើប និងផ្តោតលើលទ្ធផល ដើម្បីជួយឲ្យម៉ាកយីហោបង្កើនអត្តសញ្ញាណរបស់ខ្លួន និងសម្រេចបាននូវជោគជ័យដែលអាចវាស់វែងបាន។
-
                     ឈ្មោះ “Ninety Nine” តំណាងឲ្យភាពរឹងមាំ ភាពស្ថិរភាព និងការរីកចម្រើនជាបន្តបន្ទាប់ ដែលបង្ហាញពីជំនឿរបស់យើងក្នុងការផ្តល់សេវាកម្មដែលមានគុណភាពខ្ពស់ និងអាចទុកចិត្តបានទៅកាន់អតិថិជនគ្រប់រូបដែលយើងបានសហការជាមួយ។
                     </p>
                   <p className='py-1' style={{fontSize : '18px'}} data-aos ="fade-up" 

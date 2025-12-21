@@ -25,7 +25,7 @@ const BannerFooter = () => {
             data-aos-easing="ease-in-out">{text?.business?.business_title_next}</span>
     </h2>
 
-    <p className="mt-4 text-md" 
+    <p className="mt-4 text-md"  
             data-aos = "fade-up"
             data-aos-duration="450"
             data-aos-delay="450"
