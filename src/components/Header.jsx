@@ -5,11 +5,11 @@ import { LanguageContext } from "../context/LanguageContext";
 import { NavLink } from "react-router-dom";
 import DarkModeToggle from "./DarkModeToggle";
 import '../App.css'
-import { MAIN_NAV , SERVICE_NAV } from "../data/navigations";
+import { SERVICE_NAV } from "../data/navigations";
 import { RxHamburgerMenu } from "react-icons/rx";
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false); // Mobile menu
-  const [serviceOpen, setServiceOpen] = useState(false); // Service dropdown
+  const [isOpen, setIsOpen] = useState(false); 
+  const [serviceOpen, setServiceOpen] = useState(false); 
   const { text, changeLang, lang } = useContext(LanguageContext);
 
   return (
@@ -137,8 +137,6 @@ const Header = () => {
              <RxHamburgerMenu size={20} />
             </button>
           </div>
-
-
           </div>
         </div>
       </div>
@@ -155,9 +153,7 @@ const Header = () => {
                 `nav-link px-3 uppercase py-2 ${isActive ? "active-link" : ""}`
               }>
                 {text.about}
-              </NavLink>
-
-              
+              </NavLink>      
               <div className="relative">
                 <button
                   onClick={() => setServiceOpen(!serviceOpen)}
@@ -182,7 +178,6 @@ const Header = () => {
                   </div>
                 )}
               </div>
-
               {/* Our Client */}
               <NavLink to="/our-client" className={({ isActive }) =>
                 `nav-link px-3 uppercase py-2 ${isActive ? "active-link" : ""}`

@@ -6,13 +6,13 @@ import CoverImage3 from '../assets/cover3.jpg';
 function ImageSlider() {
   return (
     <Carousel data-bs-theme="dark" className="mt-24">
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img
           className="d-block w-100"
           src={CoverImage3}
           alt="First slide"
         />
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -21,13 +21,13 @@ function ImageSlider() {
         />
       </Carousel.Item>
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img
           className="d-block w-100"
           src={CoverImage2}
           alt="Second slide"
         />
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }
