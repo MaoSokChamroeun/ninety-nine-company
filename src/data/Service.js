@@ -1,11 +1,11 @@
-import icon1 from "../assets/icon_GIF/consultation.gif";
+import icon1 from "../assets/icon_GIF/consultaion.gif";
 import icon2 from "../assets/icon_GIF/bluestic.gif";
 import icon3 from "../assets/icon_GIF/design.gif";
-import icon4 from "../assets/icon_GIF/hands-wrench.gif";
+import icon4 from "../assets/icon_GIF/tiktok.gif";
 import icon5 from "../assets/icon_GIF/live.gif";
 import icon6 from "../assets/icon_GIF/rocket.gif";
 import icon7 from "../assets/icon_GIF/video.gif";
-import icon8 from "../assets/icon_GIF/social.png";
+import icon8 from "../assets/icon_GIF/social.gif";
 
 const services = [
   {
