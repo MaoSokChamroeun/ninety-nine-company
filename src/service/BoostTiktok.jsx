@@ -17,8 +17,8 @@ const BoostTiktok = () => {
                 data-aos-duration="300"
                 data-aos-delay="300"
                 data-aos-easing="ease-in-out">Boost</span> Tiktok</h1>
-                <div className="max-w-2xl mx-auto">
-                    <p className="text-center" data-aos="fade-up"
+                <div className="max-w-2xl mx-auto p-2">
+                    <p className="text-center p-2" data-aos="fade-up"
                         data-aos-duration="400"
                         data-aos-delay="400"
                         data-aos-easing="ease-in-out">

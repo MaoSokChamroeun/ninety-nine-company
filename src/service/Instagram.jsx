@@ -16,7 +16,7 @@ const Instagram = () => {
                     data-aos-delay="300"
                     data-aos-easing="ease-in-out">Boost</span> Instagram</h1>
             </div>
-            <div className="max-w-2xl text-center mx-auto" data-aos="fade-up"
+            <div className="max-w-2xl text-center mx-auto p-2" data-aos="fade-up"
                     data-aos-duration="500"
                     data-aos-delay="500"
                     data-aos-easing="ease-in-out">
