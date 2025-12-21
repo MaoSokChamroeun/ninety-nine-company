@@ -26,7 +26,7 @@ const ABout = () => {
           <p className='text-center'>in Graphic Design, Video Editing, Advertising, and Social Media Management.</p>
         </div>
 
-        <div className="about-team max-w-7xl mt-10 h-auto mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="about-team max-w-7xl mt-10 h-auto mx-auto px-2 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="w-full h-full" 
             data-aos ="fade-up" 
@@ -35,7 +35,7 @@ const ABout = () => {
             data-aos-easing="ease-in-out">
               <img
                 src={profile1}
-                alt="Profile 1"
+                alt="Founder"
                 className="w-full h-full object-cover rounded-2xl"
               />
             </div>
