@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Layout from '../layout/Layout'
+import { LanguageContext } from '../context/LanguageContext';
 const BoostLive = () => {
+    const {text} = useContext(LanguageContext)
   return (
     <Layout>
         <div className="w-full mt-30">
@@ -13,13 +15,11 @@ const BoostLive = () => {
                         data-aos-delay="300"
                         data-aos-easing="ease-in-out">Boost</span> Live</h1>
                 <div className="max-w-2xl mx-auto">
-                    <p className="text-center p-3" data-aos="fade-up"
+                    <p className="text-center" data-aos="fade-up"
                         data-aos-duration="500"
                         data-aos-delay="500"
                         data-aos-easing="ease-in-out">
-                        Boost your live stream to reach more viewers and drive real-time engagement.Increase live visibility and engagement 
-                        with targeted boost strategies.Enhance live reach, attract the right audience, 
-                        and maximize interaction.Expand live reach and boost real-time engagement.
+                        {text?.boost_live?.live_desc}
                     </p>
                 </div>
             </div>

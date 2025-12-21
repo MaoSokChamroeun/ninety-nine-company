@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Layout from "../layout/Layout";
 import videos from "../data/videos";
+import { LanguageContext } from "../context/LanguageContext";
 
 const VideoEditing = () => {
+  const {text} = useContext(LanguageContext);
   return (
     <Layout>
       <div className="container-fluid mt-20 py-15">
@@ -23,8 +25,7 @@ const VideoEditing = () => {
             data-aos-duration="500"
             data-aos-delay="500"
           >
-            Professional graphic design services for logos, posters, banners,
-            and branding artwork.
+            {text?.video_editing?.video_desc}
           </p>
         </div>
 

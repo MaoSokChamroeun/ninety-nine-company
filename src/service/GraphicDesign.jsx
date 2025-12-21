@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Layout from '../layout/Layout'
 import designers from '../data/designer'
+import { LanguageContext } from '../context/LanguageContext'
 const GraphicDesign = () => {
+    const {text} = useContext(LanguageContext);
   return (
     <Layout>
         <div className="container-fluid mt-20 py-15">
@@ -13,7 +15,7 @@ const GraphicDesign = () => {
                 <p className='text-center' data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="500"
-            data-aos-easing="ease-in-out"> Professional graphic design services for logos, posters, banners, and branding artwork.</p>
+            data-aos-easing="ease-in-out">{text?.graphic_design?.graphic_desc}</p>
             </div>
             <div className="container mt-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-6">

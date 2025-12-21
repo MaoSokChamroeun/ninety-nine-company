@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Layout from '../layout/Layout'
 import photo from '../assets/poster/p1.png'
+import { LanguageContext } from '../context/LanguageContext'
 const BlueStic = () => {
+  const {text} = useContext(LanguageContext);
   return (
     <Layout>
         <div className="max-w-full mt-30">
@@ -16,8 +18,7 @@ const BlueStic = () => {
             <p className='max-w-4xl text-center mx-auto' data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="500"
-            data-aos-easing="ease-in-out">Get your social media account verified with our expert assistance. 
-            We help you meet platform requirements and submit applications for that prestigious blue checkmark.</p>
+            data-aos-easing="ease-in-out">{text?.bluestic?.bluestic_desc}</p>
             
           </div>
           <div className="max-w-7xl mx-auto p-4" data-aos="fade-up"

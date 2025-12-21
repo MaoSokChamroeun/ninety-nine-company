@@ -97,6 +97,34 @@
   },
   "our_vision" : {
     "vision_desc" : "To become one of Cambodia’s most impactful and innovative digital marketing & advertising agencies—powered by creativity, technology, and strategic thinking."
+  },
+    
+  "boost_page" : {
+      "boost_des" : "Boost your posts to reach a wider audience and increase engagement with targeted promotion strategies. We help improve visibility, attract the right viewers, and drive meaningful interactions such as likes, comments, and shares. Perfect for businesses and creators looking to grow faster, strengthen their brand presence, and get real results from their content." 
+  },
+  "boost_tiktok" : {
+    "tiktok_desc" : "Boost TikTok reach and engagement with targeted promotion that delivers results. If you want it more sales-driven, more creative, or more corporate, tell me the tone and I’ll refine it exactly to match your brand." 
+  },
+  "boost_live" : {
+    "live_desc" : "Boost your live stream to reach more viewers and drive real-time engagement.Increase live visibility and engagement with targeted boost strategies.Enhance live reach, attract the right audience, and maximize interaction.Expand live reach and boost real-time engagement."
+  },
+  "boost_ig" : {
+    "ig_desc" : "We help bring your vision to life through creative photography that highlights detail, emotion, and authenticity."
+  },
+  "graphic_design" : {
+    "graphic_desc" :"Professional graphic design services for logos, posters, banners, and branding artwork."
+  },
+  "video_editing" : {
+    "video_desc" : "We provide professional video editing services that transform raw footage into polished, engaging content. Our editing focuses on smooth transitions, precise cuts, color correction, sound enhancement, and creative effects to ensure your video tells a clear and compelling story. Whether it’s for social media, marketing, events, or branding, we craft videos that capture attention, convey emotion, and deliver your message with impact."
+  },
+  "upgrade_page" : {
+    "upgrade_desc" :"Upgrade your page to unlock greater reach, stronger engagement, and a more professional brand presence. We help optimize your page with targeted growth strategies, improved visibility, and content enhancements that attract the right audience. Ideal for businesses and creators who want faster growth, higher credibility, and real, measurable results from their social media presence."
+  },
+  "consolting": {
+    "consolting_desc" : "Learn proven digital marketing techniques with personalized coaching. Our sessions cover strategy, advertising, content creation, and social media growth to help you scale your business."
+  },
+  "bluestic" : {
+    "bluestic_desc" : "Get your social media account verified with our expert assistance. We help you meet platform requirements and submit applications for that prestigious blue checkmark."
   }
   
 }

@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Layout from '../layout/Layout'
 import posts from '../data/posts'
+import { LanguageContext } from '../context/LanguageContext'
 const BoostPage = () => {
+    const {text} = useContext(LanguageContext);
   return (
     <Layout>
         <div className="container-fluid mt-30">
@@ -11,9 +13,9 @@ const BoostPage = () => {
                 data-aos-delay="300"
                 data-aos-easing="ease-in-out" ><span className='text-pink-500' style={{fontWeight : 'bolder'}}>Boost</span> Posts</h1>
                 <p className='text-center' data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="500"
-            data-aos-easing="ease-in-out"> Professional graphic design services for logos, posters, banners, and branding artwork.</p>
+                data-aos-duration="500"
+                data-aos-delay="500"
+                data-aos-easing="ease-in-out">{text?.boost_page?.boost_des}</p>
             </div>
 
             <div className="container mt-10">
