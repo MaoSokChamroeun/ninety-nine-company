@@ -13,7 +13,7 @@ const ButtonScrollTop = () => {
     <div className="w-full mt-10">
       <div className="max-w-7xl mx-auto text-center flex items-center justify-center">
         <Link to="/" onClick={handleScrollTop}  >
-          <img src={IconTop} width={50} alt="" className='rounded-full bg-black'  />
+          <img src={IconTop} width={50} alt="" className='rounded-full'  />
         </Link>
       </div>
     </div>

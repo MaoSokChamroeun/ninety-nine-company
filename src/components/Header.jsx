@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import DarkModeToggle from "./DarkModeToggle";
 import '../App.css'
 import { SERVICE_NAV } from "../data/navigations";
-import { RxHamburgerMenu } from "react-icons/rx";
+import { RxHamburgerMenu ,RxCross1 } from "react-icons/rx";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false); 
   const [serviceOpen, setServiceOpen] = useState(false); 
@@ -131,12 +131,17 @@ const Header = () => {
 
           {/* MOBILE BURGER (SAME COLUMN) */}
           <div className="md:hidden flex justify-end w-full col-start-3">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-            >
-             <RxHamburgerMenu size={20} />
-            </button>
-          </div>
+              <button
+                onClick={() => setIsOpen(!isOpen)}          
+              >
+                {isOpen ? (
+                  <RxCross1 size={22} />
+                ) : (
+                  <RxHamburgerMenu size={22} />
+                )}
+              </button>
+            </div>
+
           </div>
         </div>
       </div>
