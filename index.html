@@ -1,22 +1,30 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Basic -->
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="icon" type="image/png" href="/logo.jpg" />
-
+    <!-- Title & SEO -->
     <title>NinetyNine Media | Media & Advertising Agency</title>
-
     <meta
       name="description"
       content="NinetyNine Media is a professional media and advertising agency delivering creative campaigns, digital marketing, social media management, and brand growth solutions."
     />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.ninetynine-media.com/" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/logo.jpg" />
 
     <!-- Open Graph -->
     <meta property="og:title" content="NinetyNine Media | Media & Advertising Agency" />
-    <meta property="og:description" content="Creative advertising, digital marketing, and media solutions designed to grow your brand." />
+    <meta
+      property="og:description"
+      content="Creative advertising, digital marketing, and media solutions designed to grow your brand."
+    />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.ninetynine-media.com/" />
     <meta property="og:image" content="https://www.ninetynine-media.com/og-image.jpg" />
@@ -24,30 +32,44 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="NinetyNine Media | Media & Advertising Agency" />
-    <meta name="twitter:description" content="Creative advertising, digital marketing, and media solutions designed to grow your brand." />
+    <meta
+      name="twitter:description"
+      content="Creative advertising, digital marketing, and media solutions designed to grow your brand."
+    />
     <meta name="twitter:image" content="https://www.ninetynine-media.com/og-image.jpg" />
 
-    <link rel="canonical" href="https://www.ninetynine-media.com/" />
+    <!-- Force HTTPS (browser-level safety) -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nokora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nokora:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Organization Logo Schema -->
+    <!-- Schema: Organization -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "NinetyNine Media",
       "url": "https://www.ninetynine-media.com/",
-      "logo": "https://www.ninetynine-media.com/logo.jpg"
+      "logo": "https://www.ninetynine-media.com/logo.jpg",
+      "sameAs": [
+        "https://www.facebook.com/",
+        "https://www.instagram.com/",
+        "https://www.linkedin.com/"
+      ]
     }
     </script>
-
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- React / Vite Entry -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

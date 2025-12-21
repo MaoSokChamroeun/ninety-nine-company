@@ -1,5 +1,10 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "ninetynine-media.com" }],
+      "destination": "https://www.ninetynine-media.com/$1",
+      "permanent": true
+    }
   ]
 }
