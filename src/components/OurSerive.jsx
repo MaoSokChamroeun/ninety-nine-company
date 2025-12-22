@@ -25,16 +25,16 @@ const OurSerive = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-      <div className="icon w-full flex justify-center">
-        <span className="max-w-2xs p-2 bg-white-400 rounded-full shadow">
-          <img src={service.icon} alt='GIF' width={45} className="object-cover" />
-        </span>
-      </div>
+          <div className="icon w-full flex justify-center">
+            <span className="max-w-2xs p-2 rounded-full shadow">
+              <img src={service.icon} alt='GIF' width={45} className="object-cover" />
+            </span>
+          </div>
 
       <div className="content mt-3">
          <span className="text-pink-500" style={{fontWeight : "bold"}}>{text?.services?.[service.titleKey.split(".")[1]]?.title}</span>
         <div className="desc m-2 text-center">
-          <span className="text-gray-500">{text?.services?.[service.descKey.split(".")[1]]?.desc}</span>
+          <span>{text?.services?.[service.descKey.split(".")[1]]?.desc}</span>
         </div>
         <button>
           <Link to={service.link} className="nav-link text-decoration-none service-bg p-2 rounded-xs" style={{fontSize : '13px'}}>View Details</Link>

@@ -6,15 +6,12 @@ const Action = () => {
   return (
     <div className="max-w-full mx-auto mt-5 mb-5">
       <div className="max-w-[1500px] mx-auto flex flex-col lg:flex-row gap-10">
-
         {/* LEFT TEXT */}
         <div className="max-w-sm  flex justify-center items-center text-center lg:text-left">
         <h1 className=" lg:text-left text-6xl p-8">
             <span className="text-6xl text-pink-500 ">{text?.why_choose?.choose_title} <br></br> {text?.why_choose?.choose_middle} <br></br> </span> <span style={{fontWeight : "bolder"}}>{text?.why_choose?.choose_desc}</span>
         </h1>
         </div>
-
-
         {/* RIGHT VIDEOS */}
         <div className="max-w-7xl mt-10 mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
