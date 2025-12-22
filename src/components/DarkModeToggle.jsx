@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ThemeContext, ThemeProvider } from '../context/ThemeContext'
-import { FaMoon } from 'react-icons/fa';
-import { FaSun } from 'react-icons/fa';
+import { MdOutlineNightlight } from "react-icons/md";
+import { MdOutlineLightMode } from "react-icons/md";
 import '../index.css'
 const DarkModeToggle = () => {
     const {theme , toggleTheme} = useContext(ThemeContext);
@@ -16,7 +16,7 @@ const DarkModeToggle = () => {
       }}
       aria-label="Toggle Dark Mode"
     >
-      {theme === "light" ? <FaMoon /> : <FaSun />}
+      {theme === "light" ? <MdOutlineNightlight /> : <MdOutlineLightMode />}
     </button>
   )
 }
