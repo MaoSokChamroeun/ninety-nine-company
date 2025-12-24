@@ -49,7 +49,7 @@ const OurClientPage = () => {
                   flex items-center justify-center
                   shadow-lg
                   border
-                  w-[173px] h-30  
+                  w-[171px] h-30  
                   sm:w-[290px] sm:h-28
                   md:w-[360px] md:h-28
                   lg:w-[324px] lg:h-32
