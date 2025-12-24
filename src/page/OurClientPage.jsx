@@ -31,12 +31,11 @@ const OurClientPage = () => {
           <div
             className="
               grid
-              grid-cols-1
+              grid-cols-2
               sm:grid-cols-2
               md:grid-cols-2
               lg:grid-cols-3
               xl:grid-cols-4
-              gap-8
               justify-items-center
             "
             data-aos="fade-up"
@@ -49,13 +48,18 @@ const OurClientPage = () => {
                 className="
                   flex items-center justify-center
                   shadow-lg
-                  w-[300px] h-[200px]
-                  rounded-xl
+                  border
+                  w-[173px] h-30  
+                  sm:w-[290px] sm:h-28
+                  md:w-[360px] md:h-28
+                  lg:w-[320px] lg:h-32
+                  xl:w-[310px] xl:h-36
                   cursor-pointer
                   bg-white
                   hover:shadow-xl
                   hover:scale-[1.03]
                   transition
+                  
                 "
                 data-aos="fade-up"
                 data-aos-duration="800"
@@ -65,8 +69,10 @@ const OurClientPage = () => {
                   alt={item.name || 'Client logo'}
                   className="
                     object-contain
-                    w-[150px] h-[150px]
+                    w-[80px] h-[80px]
                     rounded-full
+                    sm:w-14 sm:h-14
+                    md:w-20 md:h-20
                   "
                 />
               </div>
