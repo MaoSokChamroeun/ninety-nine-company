@@ -1,7 +1,7 @@
 import React from 'react'
 import poster from '../assets/poster/cover3.jpg'
 import Layout from '../layout/Layout'
-
+import { Link } from 'react-router-dom'
 const Contact = () => {
   return (
     <Layout>
@@ -64,7 +64,6 @@ const Contact = () => {
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
                   />
                 </div>
-
                 {/* Message */}
                 <div>
                   <label htmlFor="message" className="block mb-1 font-medium">Message</label>
@@ -80,9 +79,9 @@ const Contact = () => {
                 <div className="text-right">
                   <button
                     type="submit"
-                    className="px-6  py-2 bg-pink-600 roue text-white font-semibold hover:bg-pink-700 transition"
+                    className="px-6 py-2 bg-pink-600 rounded-lg text-white font-semibold hover:bg-pink-700 transition"
                   >
-                    Contact
+                    <Link to="https://t.me/Mengchhayx99" className='text-decoration-none text-white'>Contact</Link>
                   </button>
                 </div>
               </form>

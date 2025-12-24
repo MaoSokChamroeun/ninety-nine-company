@@ -16,7 +16,7 @@ const DarkModeToggle = () => {
       }}
       aria-label="Toggle Dark Mode"
     >
-      {theme === "light" ? <MdOutlineNightlight /> : <MdOutlineLightMode />}
+      {theme === "light" ? <MdOutlineNightlight fontSize={25} /> : <MdOutlineLightMode fontSize={25} />}
     </button>
   )
 }
