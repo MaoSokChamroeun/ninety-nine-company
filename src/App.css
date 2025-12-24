@@ -3,10 +3,10 @@
   --bg-service :#ec4899;
   --color-service : #ffffff;
   --text-color: #020617;
-  
+
   --nav-bg: #ffffff;
   --nav-hover: #e5e7eb;
-  --nav-active: #ec4899; /* pink */
+  --nav-active: #ec4899; 
 }
 
 [data-theme="dark"] {
@@ -15,6 +15,7 @@
   --nav-bg: #020617;
   --nav-hover: #1e293b;
   --nav-active: #ec4899;
+ 
 }
 
 * {

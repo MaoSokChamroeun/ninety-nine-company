@@ -20,7 +20,7 @@ const OurSerive = () => {
           {
         data.map((service) => (
           <div
-            className="bg-white text-center p-2 shadow max-w-md rounded-lg"
+            className="text-center p-2 shadow max-w-md rounded-lg"
             key={service.id}
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -33,7 +33,7 @@ const OurSerive = () => {
 
       <div className="content mt-3">
          <span className="text-pink-500" style={{fontWeight : "bold"}}>{text?.services?.[service.titleKey.split(".")[1]]?.title}</span>
-        <div className="desc m-2 text-center">
+        <div className="desc m-2 text-center text-gray-500">
           <span>{text?.services?.[service.descKey.split(".")[1]]?.desc}</span>
         </div>
         <button>

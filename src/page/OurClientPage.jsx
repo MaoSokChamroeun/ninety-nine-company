@@ -4,7 +4,6 @@ import clients from '../data/clients'
 import '../App.css'
 const OurClientPage = () => {
   const [selectedClient, setSelectedClient] = useState(null)
-
   return (
     <Layout>
       <div className="max-w-7xl mx-auto mt-30 px-4">
@@ -46,7 +45,9 @@ const OurClientPage = () => {
                 key={item.id}
                 onClick={() => setSelectedClient(item)}
                 className="
-                  flex items-center justify-center
+                  flex 
+                  items-center 
+                  justify-center
                   shadow-lg
                   border
                   w-[171px] h-30  
@@ -55,10 +56,9 @@ const OurClientPage = () => {
                   lg:w-[323px] lg:h-32
                   xl:w-[307px] xl:h-36
                   cursor-pointer
-                  bg-white
                   hover:shadow-xl
-                  hover:scale-[1.03]
-                  transition
+                  hover:bg-pink-500
+                  transition duration-300
                   
                 "
                 data-aos="fade-up"
@@ -66,10 +66,10 @@ const OurClientPage = () => {
               >
                 <img
                   src={item.image}
-                  alt={item.name || 'Client logo'}
+                  alt={item.name}
                   className="
                     object-contain
-                    w-[80px] h-[80px]
+                    w-[100px] h-[100px]
                     rounded-full
                     sm:w-14 sm:h-14
                     md:w-20 md:h-20

@@ -27,7 +27,7 @@ const OurClient = () => {
       key={item.id}
       className="
         flex items-center justify-center
-        bg-white
+        our-client-icon
         shadow
         border
         w-[171px] h-20  
