@@ -15,7 +15,7 @@ const Contact = () => {
           >Contact Us</p>
 
           {/* Responsive grid */}
-          <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="mt-10 grid md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 gap-6">
             {/* Image */}
             <div className="w-full" data-aos="fade-up"
             data-aos-duration="500"
@@ -24,7 +24,8 @@ const Contact = () => {
               <img
                 src={poster}
                 alt="Contact Poster"
-                className="w-full h-full object-cover rounded-lg"
+                className="
+                w-full h-full object-cover rounded-lg md:w-[800px] mx-auto lg:w-[600px] lg:h-[600px]"
               />
             </div>
 

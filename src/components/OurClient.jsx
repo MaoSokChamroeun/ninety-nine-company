@@ -31,10 +31,10 @@ const OurClient = () => {
         shadow
         border
         w-[171px] h-20  
-        sm:w-[210px] sm:h-28
-        md:w-[210px] md:h-28
+        sm:w-[200px] sm:h-28
+        md:w-[180px] md:h-28
         lg:w-[160px] lg:h-30
-        xl:w-[207px] xl:h-32
+        xl:w-[206px] xl:h-32
       "
       data-aos="zoom-in"
       data-aos-duration="800"

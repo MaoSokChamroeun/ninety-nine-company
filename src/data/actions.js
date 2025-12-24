@@ -5,11 +5,11 @@ const actions = [
   },
   {
     id: "W0oTx95p2TA",
-    delay: 700,
+    delay: 550,
   },
   {
     id: "vZBStMN6_uQ",
-    delay: 900,
+    delay: 600,
   },
 ];
 

@@ -20,7 +20,7 @@ const OurSerive = () => {
           {
         data.map((service) => (
           <div
-            className="bg-white-500 text-center p-2 shadow max-w-md rounded-2xl"
+            className="bg-white text-center p-2 shadow max-w-md rounded-lg"
             key={service.id}
             data-aos="fade-up"
             data-aos-duration="1000"

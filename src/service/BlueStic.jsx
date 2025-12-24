@@ -21,12 +21,20 @@ const BlueStic = () => {
             data-aos-easing="ease-in-out">{text?.bluestic?.bluestic_desc}</p>
             
           </div>
-          <div className="max-w-7xl mx-auto p-4" data-aos="fade-up"
+          <div
+            className="max-w-7xl mx-auto p-4 xs:p-2"
+            data-aos="fade-up"
             data-aos-duration="600"
             data-aos-delay="600"
-            data-aos-easing="ease-in-out">
-            <img src={photo} alt="" className='w-full object-cover rounded-2xl' />
+            data-aos-easing="ease-in-out"
+          >
+            <img
+              src={photo}
+              alt=""
+              className="w-full object-cover rounded-lg"
+            />
           </div>
+
         </div>
     </Layout>
   )

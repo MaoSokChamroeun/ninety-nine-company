@@ -30,11 +30,11 @@ const VideoEditing = () => {
         </div>
 
         <div className="max-w-7xl mt-10 mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {videos.map((video, index) => (
               <div
                 key={index}
-                className="relative w-[350px] h-[600px] mx-auto"
+                className="relative w-[350px] h-[600px] sm:w-[300px] sm:h-[600px] md:w-[350px] md:h-[600px] lg:w-[330px] lg:h-[600px] mx-auto"
                 data-aos="fade-up"
                 data-aos-duration="500"
                 data-aos-delay={video.delay}
