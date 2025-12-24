@@ -52,7 +52,7 @@ const OurClientPage = () => {
                   w-[173px] h-30  
                   sm:w-[290px] sm:h-28
                   md:w-[360px] md:h-28
-                  lg:w-[320px] lg:h-32
+                  lg:w-[324px] lg:h-32
                   xl:w-[310px] xl:h-36
                   cursor-pointer
                   bg-white

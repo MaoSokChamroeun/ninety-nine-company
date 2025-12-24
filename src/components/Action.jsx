@@ -8,18 +8,19 @@ const Action = () => {
       <div className="max-w-[1500px] mx-auto flex flex-col lg:flex-row gap-10">
         {/* LEFT TEXT */}
         <div className="max-w-sm  flex justify-center items-center text-center lg:text-left">
-        <h1 className=" lg:text-left text-6xl p-8">
+        <h1 className=" lg:text-center text-6xl p-8">
             <span className="text-6xl text-pink-500 ">{text?.why_choose?.choose_title} <br></br> {text?.why_choose?.choose_middle} <br></br> </span> <span style={{fontWeight : "bolder"}}>{text?.why_choose?.choose_desc}</span>
         </h1>
         </div>
         {/* RIGHT VIDEOS */}
         <div className="max-w-7xl mt-10 mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-2">
 
            {actions.map((video, index) => (
               <div
                 key={index}
-                className="relative w-[350px] h-[600px] mx-auto"
+                className="relative w-[350px] h-[600px] mx-auto 
+                lg:w-[300px] lg:h-[500px]"
                 data-aos="fade-up"
                 data-aos-duration="500"
                 data-aos-delay={video.delay}

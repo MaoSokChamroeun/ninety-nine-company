@@ -33,7 +33,8 @@ const OurClient = () => {
         w-[171px] h-20  
         sm:w-[210px] sm:h-28
         md:w-[210px] md:h-28
-        lg:w-[210px] lg:h-32
+        lg:w-[160px] lg:h-30
+        xl:w-[207px] xl:h-32
       "
       data-aos="zoom-in"
       data-aos-duration="800"
@@ -42,6 +43,7 @@ const OurClient = () => {
         src={item.image}
         alt=""
         className="
+          shadow
           object-contain
           rounded-full
           w-12 h-12
