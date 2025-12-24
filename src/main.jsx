@@ -10,7 +10,6 @@ import { LanguageProvider } from './context/LanguageContext.jsx'
 import { Analytics } from "@vercel/analytics/react";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  
     <ThemeProvider>
     <LanguageProvider>
       <App />

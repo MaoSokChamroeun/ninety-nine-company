@@ -22,7 +22,6 @@ import BoostTiktok from './service/BoostTiktok'
 import Photograper from './service/Instagram'
 import Instagram from './service/Instagram'
 import BoostLive from './service/BoostLive'
-
 function App() {
    useEffect(() => {
     AOS.init();
