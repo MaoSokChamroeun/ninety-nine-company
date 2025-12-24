@@ -52,8 +52,8 @@ const OurClientPage = () => {
                   w-[171px] h-30  
                   sm:w-[290px] sm:h-28
                   md:w-[360px] md:h-28
-                  lg:w-[324px] lg:h-32
-                  xl:w-[310px] xl:h-36
+                  lg:w-[323px] lg:h-32
+                  xl:w-[307px] xl:h-36
                   cursor-pointer
                   bg-white
                   hover:shadow-xl
