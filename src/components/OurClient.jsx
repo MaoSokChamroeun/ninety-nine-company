@@ -28,7 +28,7 @@ const OurClient = () => {
       className="
         flex items-center justify-center
         our-client-icon
-        border
+        border-1 border-gray-600 
         w-[171px] h-20  
         sm:w-[200px] sm:h-28
         md:w-[180px] md:h-28

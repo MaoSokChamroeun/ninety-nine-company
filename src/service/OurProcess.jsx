@@ -3,7 +3,7 @@ import React from "react";
 import steps from "../data/process";
 export default function OurProcess() {
   return (
-    <section className=" py-10 px-6">
+    <section className=" py-10">
       <div className="max-w-[1500px] mx-auto text-center ">
         {/* Title */}
         <h1 className='text-center' style={{fontWeight : "bolder"}} data-aos="fade-up"
@@ -13,18 +13,18 @@ export default function OurProcess() {
             data-aos-duration="300"
             data-aos-delay="300"
             data-aos-easing="ease-in-out">Our</span> Process</h1>
-        <div className="max-w-[400px] mx-auto">
+        <div className="w-[full] mx-auto">
           <p className="text-gray-400 mt-3 mx-auto " 
             data-aos="fade-up"
             data-aos-duration="400"
             data-aos-delay="400"
             data-aos-easing="ease-in-out">
-          A clear, proven process that ensures success for every project we undertake.
+             A clear, proven process that ensures success for every project we undertake.
         </p>
         </div>
 
         {/* Timeline */}
-        <div className="relative sm:w-[full] mt-10 flex flex-col xl:flex xl:flex-row lg:flex lg:flex-row items-center justify-between gap-10 sm:grid sm:grid-cols-2 md:grid-cols-2">
+        <div className="relative sm:p-2 sm:mx-auto mt-10 grid grid-cols-2 xl:flex xl:flex-row lg:flex lg:flex-row items-center justify-between gap-10 sm:grid sm:grid-cols-3 md:grid-cols-3">
           
           {/* Dotted line */}
           <div className="hidden lg:block absolute top-12 left-0 right-0 h-px border-t border-dashed border-process-color/20" />
@@ -48,9 +48,9 @@ export default function OurProcess() {
                   <img src={step.icon} alt={step.title} className="w-10 h-10" />
                 </div>
                 {/* Text */}
-                <h3 className="mt-6 text-xl font-semibold process-color">
+                <p className="mt-6 sm:text-[18px] text-[16px] font-semibold process-color">
                   {step.title}
-                </h3>
+                </p>
                 <p className="mt-2 text-gray-400 text-sm">
                   {step.description}
                 </p>

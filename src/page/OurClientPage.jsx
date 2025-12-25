@@ -48,12 +48,12 @@ const OurClientPage = () => {
                   flex 
                   items-center 
                   justify-center
-                  border
+                  border-1 border-gray-600
                   w-[171px] h-30  
                   sm:w-[290px] sm:h-28
                   md:w-[360px] md:h-28
                   lg:w-[323px] lg:h-32
-                  xl:w-[307px] xl:h-36
+                  xl:w-[308px] xl:h-36
                   cursor-pointer
                   hover:shadow-xl
                   hover:bg-pink-500
