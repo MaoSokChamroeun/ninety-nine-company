@@ -48,7 +48,6 @@ const OurClientPage = () => {
                   flex 
                   items-center 
                   justify-center
-                  shadow-lg
                   border
                   w-[171px] h-30  
                   sm:w-[290px] sm:h-28

@@ -36,7 +36,7 @@ const VideoEditing = () => {
                 key={index}
                 className="relative w-[350px] h-[600px] sm:w-[300px] sm:h-[600px] md:w-[350px] md:h-[600px] lg:w-[330px] lg:h-[600px] xl:w-[400px] xl:h-[600px] mx-auto"
                 data-aos="fade-up"
-                data-aos-duration="500"
+                data-aos-duration="400"
                 data-aos-delay={video.delay}
               >
                 <iframe

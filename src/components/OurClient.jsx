@@ -28,7 +28,6 @@ const OurClient = () => {
       className="
         flex items-center justify-center
         our-client-icon
-        shadow
         border
         w-[171px] h-20  
         sm:w-[200px] sm:h-28
@@ -43,7 +42,7 @@ const OurClient = () => {
         src={item.image}
         alt=""
         className="
-          shadow
+          
           object-contain
           rounded-full
           w-12 h-12

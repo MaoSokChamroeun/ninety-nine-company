@@ -4,6 +4,7 @@ import profile1 from '../assets/profile/photo_2025-10-28_13-56-56.jpg'
 import ourmisssions from '../data/ourmissions'
 import '../index.css'
 import { LanguageContext } from '../context/LanguageContext'
+import OurProcess from '../service/OurProcess'
 const ABout = () => {
   const {text} = useContext(LanguageContext);
   return (
@@ -68,8 +69,6 @@ const ABout = () => {
 
                  
             </div>
-
-            
           </div>
           
         </div>
@@ -116,6 +115,10 @@ const ABout = () => {
             data-aos-easing="ease-in-out">
             {text?.our_vision?.vision_desc}
            </p>
+        </div>
+        {/* OurProcess */}
+        <div className="mt-20">
+          <OurProcess />
         </div>
       </div>
     </Layout>

@@ -56,3 +56,6 @@ body {
 .footer-color {
   color: var(--text-color);
 }
+.process-color{
+  color: var(--text-color);
+}

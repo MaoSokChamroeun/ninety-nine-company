@@ -4,7 +4,7 @@ import ImageSliderSource  from '../components/ImageSliderSource'
 import CoverImage1 from "../assets/cover4.jpg";
 function ImageSlider() {
   return (
-    <Carousel data-bs-theme="dark" className="mt-24">
+    <Carousel data-bs-theme="dark" className="mt-24"> //1.2$
       {/* <Carousel.Item>
         <img
           className="d-block w-100"
