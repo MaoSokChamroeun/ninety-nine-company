@@ -9,7 +9,7 @@ const OurAchivement = () => {
           <h1 className="text-4xl font-extrabold" style={{fontWeight : "bolder"}} data-aos="fade-up">
             <span className="text-pink-500" style={{fontWeight : "bolder"}}>Our</span> Achievement
           </h1>
-          <p className="mt-2" 
+          <p className="mt-2 text-gray-400" 
             data-aos="fade-up" 
             data-aos-duration="300"
             data-aos-delay="300"

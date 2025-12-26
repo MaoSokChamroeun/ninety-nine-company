@@ -15,7 +15,7 @@ const BlueStic = () => {
             data-aos-duration="300"
             data-aos-delay="300"
             data-aos-easing="ease-in-out">Bluetick</span> Service</h1>
-            <p className='max-w-4xl text-center mx-auto p-3' data-aos="fade-up"
+            <p className='max-w-4xl text-center mx-auto p-3 text-gray-400' data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="500"
             data-aos-easing="ease-in-out">{text?.bluestic?.bluestic_desc}</p>

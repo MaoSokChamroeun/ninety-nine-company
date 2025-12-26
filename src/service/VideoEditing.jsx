@@ -20,7 +20,7 @@ const VideoEditing = () => {
           </h1>
 
           <p
-            className="text-center p-2"
+            className="text-center p-2 text-gray-400"
             data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="500"

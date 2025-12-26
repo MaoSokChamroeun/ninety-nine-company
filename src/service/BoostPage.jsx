@@ -12,7 +12,7 @@ const BoostPage = () => {
                 data-aos-duration="300"
                 data-aos-delay="300"
                 data-aos-easing="ease-in-out" ><span className='text-pink-500' style={{fontWeight : 'bolder'}}>Boost</span> Posts</h1>
-                <p className='text-center p-2' data-aos="fade-up"
+                <p className='text-center p-2 text-gray-400' data-aos="fade-up"
                 data-aos-duration="500"
                 data-aos-delay="500"
                 data-aos-easing="ease-in-out">{text?.boost_page?.boost_des}</p>

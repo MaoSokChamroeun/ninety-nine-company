@@ -15,7 +15,7 @@ const Upgrade = () => {
             data-aos-duration="300"
             data-aos-delay="300"
             data-aos-easing="ease-in-out">Upgrade</span> Page</h1>
-                <p className='text-center p-2' data-aos="fade-up"
+                <p className='text-center p-2 text-gray-400' data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="500"
             data-aos-easing="ease-in-out">{text?.upgrade_page?.upgrade_desc}</p>
