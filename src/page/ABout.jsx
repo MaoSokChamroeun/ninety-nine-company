@@ -5,6 +5,7 @@ import ourmisssions from '../data/ourmissions'
 import '../index.css'
 import { LanguageContext } from '../context/LanguageContext'
 import OurProcess from '../service/OurProcess'
+import Digital from '../components/Digital'
 const ABout = () => {
   const {text} = useContext(LanguageContext);
   return (
@@ -120,6 +121,9 @@ const ABout = () => {
         <div className="mt-20">
           <OurProcess />
         </div>
+        {/* <div className="mt-10">
+          <Digital />
+        </div> */}
       </div>
     </Layout>
   )

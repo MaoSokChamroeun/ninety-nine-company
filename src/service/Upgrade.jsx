@@ -20,14 +20,14 @@ const Upgrade = () => {
             data-aos-delay="500"
             data-aos-easing="ease-in-out">{text?.upgrade_page?.upgrade_desc}</p>
             </div>
-            <div className="container">
-              <div className="grid grid-cols-1 mx-auto" data-aos="fade-up"
-            data-aos-duration="600"
-            data-aos-delay="600"
-            data-aos-easing="ease-in-out">
+          
+              <div className="max-w-7xl grid grid-cols-1 mx-auto" data-aos="fade-up"
+                    data-aos-duration="600"
+                    data-aos-delay="600"
+                    data-aos-easing="ease-in-out">
                 <img src={cover} alt="" className='rounded-lg' />
               </div>
-            </div>
+           
         </div>
     </Layout>
   )

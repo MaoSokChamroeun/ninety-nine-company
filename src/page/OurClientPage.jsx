@@ -52,15 +52,13 @@ const OurClientPage = () => {
                   flex 
                   items-center 
                   justify-center
-                  bg-gray-800
-                  rounded-lg
-                  xl:bg-gray-800
+                  shadow
                   rounded-lg
                   w-[171px] h-30  
                   sm:w-[290px] sm:h-28
                   md:w-[230px] md:h-28
                   lg:w-[323px] lg:h-32
-                  xl:w-[300px] xl:h-30
+                  xl:w-[300px] xl:h-38
                   cursor-pointer
                   hover:shadow-xl
                   hover:bg-pink-500

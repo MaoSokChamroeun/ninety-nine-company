@@ -26,7 +26,7 @@ const BoostPage = () => {
                         data-aos-duration="700"
                         data-aos-delay="700"
                         data-aos-easing="ease-in-out">
-                        <img src={boosts.boost} alt="" className='w-full object- rounded-2xl' />
+                        <img src={boosts.boost} alt="" className='w-full object- rounded-lg' />
                         </div>
                     ))
                     }
