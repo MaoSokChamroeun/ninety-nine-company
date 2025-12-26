@@ -24,7 +24,9 @@ import Instagram from './service/Instagram'
 import BoostLive from './service/BoostLive'
 function App() {
    useEffect(() => {
-    AOS.init();
+    AOS.init({
+     
+    });
   }, []);
   return (
       <BrowserRouter>

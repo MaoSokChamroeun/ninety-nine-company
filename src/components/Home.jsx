@@ -8,6 +8,7 @@ import OurClient from "./OurClient";
 import BannerFooter from "./BannerFooter";
 import Action from "./Action";
 import ButtonScrollTop from "./ButtonScrollTop";
+import ClientCarousel from "./ClientCarousel";
 
 const Home = () => {
 
@@ -19,7 +20,8 @@ const Home = () => {
       <OurSerive />
       <Action />
       <WorkFlow />
-      <OurClient />
+      {/* <OurClient /> */}
+      <ClientCarousel />
       <OurWork />
       <BannerFooter />
       <ButtonScrollTop />

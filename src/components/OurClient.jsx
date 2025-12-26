@@ -51,10 +51,10 @@ const OurClient = () => {
         "
       />
     </div>
-  ))}
-</div>
+    ))}
+    </div>
 
-</div>
+    </div>
 
     </div>
   );

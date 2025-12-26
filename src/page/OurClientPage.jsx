@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Layout from '../layout/Layout'
 import clients from '../data/clients'
 import '../App.css'
+import OurAchivement from '../components/OurAchivement'
 const OurClientPage = () => {
   const [selectedClient, setSelectedClient] = useState(null)
   return (
@@ -30,11 +31,14 @@ const OurClientPage = () => {
           <div
             className="
               grid
+              gap-2
               grid-cols-2
               sm:grid-cols-2
-              md:grid-cols-2
+              md:grid-cols-3
+              md:gap-4
               lg:grid-cols-3
               xl:grid-cols-4
+              xl:gap-4
               justify-items-center
             "
             data-aos="fade-up"
@@ -48,12 +52,15 @@ const OurClientPage = () => {
                   flex 
                   items-center 
                   justify-center
-                  border-1 border-gray-600
+                  bg-gray-800
+                  rounded-lg
+                  xl:bg-gray-800
+                  rounded-lg
                   w-[171px] h-30  
                   sm:w-[290px] sm:h-28
-                  md:w-[360px] md:h-28
+                  md:w-[230px] md:h-28
                   lg:w-[323px] lg:h-32
-                  xl:w-[308px] xl:h-36
+                  xl:w-[300px] xl:h-30
                   cursor-pointer
                   hover:shadow-xl
                   hover:bg-pink-500
@@ -70,15 +77,17 @@ const OurClientPage = () => {
                     object-contain
                     w-[100px] h-[100px]
                     rounded-full
-                    sm:w-14 sm:h-14
+                    sm:w-25 sm:h-25
                     md:w-20 md:h-20
+                    lg:w-28 lg:h-28
+                    xl:w-24 xl:h-24
                   "
                 />
               </div>
             ))}
           </div>
         </div>
-      </div>
+    
 
       {selectedClient && (
         <div
@@ -131,7 +140,12 @@ const OurClientPage = () => {
             </div>
           </div>
         </div>
+        
       )}
+      <div className="mt-20 mb-10">
+        <OurAchivement />
+        </div>
+      </div>
     </Layout>
   )
 }

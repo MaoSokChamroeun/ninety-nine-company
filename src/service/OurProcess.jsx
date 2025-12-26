@@ -24,7 +24,7 @@ export default function OurProcess() {
         </div>
 
         {/* Timeline */}
-        <div className="relative sm:p-2 sm:mx-auto mt-10 grid grid-cols-2 xl:flex xl:flex-row lg:flex lg:flex-row items-center justify-between gap-10 sm:grid sm:grid-cols-3 md:grid-cols-3">
+        <div className="relative sm:p-2 sm:mx-auto mt-10 grid grid-cols-2 xl:flex xl:flex-row xl:items-center gap-10 sm:grid sm:grid-cols-3 md:grid-cols-3">
           
           {/* Dotted line */}
           <div className="hidden lg:block absolute top-12 left-0 right-0 h-px border-t border-dashed border-process-color/20" />
@@ -33,7 +33,7 @@ export default function OurProcess() {
             return (
               <div
                 key={index}
-                className="relative z-10 flex flex-col items-center text-center max-w-[220px] md:items-center md:justify-center md:mx-auto md:pt-2"
+                className="relative z-10 flex flex-col items-center text-center max-w-[220px] md:items-center md:justify-center md:mx-auto md:pt-2 "
                 data-aos="zoom-in"
                 data-aos-duration="400"
                 data-aos-delay={step.delay}
