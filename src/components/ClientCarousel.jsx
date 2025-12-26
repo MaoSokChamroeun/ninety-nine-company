@@ -13,7 +13,7 @@ const ClientCarousel = () => {
 
     let topPos = 0;
     let bottomPos = bottom.scrollWidth / 2;
-    const speed = 0.2;
+    const speed = 0.5;
 
     const animate = () => {
       // TOP → LEFT
