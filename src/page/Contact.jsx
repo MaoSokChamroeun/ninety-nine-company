@@ -90,10 +90,12 @@ const Contact = () => {
         </div>
       </div>
        <div className="mt-32">
-            <h2 className="text-xl font-semibold mb-4 text-center" data-aos="fade-up"
+            <h1 className='text-center'
+            data-aos ="fade-up" 
             data-aos-duration="300"
             data-aos-delay="300"
-            data-aos-easing="ease-in-out">Our Location</h2>
+            data-aos-easing="ease-in-out" style={{fontWeight : "bolder"}}><span className='text-pink-500'
+            style={{fontWeight : "bolder"}}>Our</span> Location</h1>
             <div className="w-full h-96 md:h-96 rounded-lg shadow-md overflow-hidden" 
             data-aos="fade-up"
             data-aos-duration="700"
