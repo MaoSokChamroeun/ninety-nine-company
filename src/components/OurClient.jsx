@@ -42,7 +42,6 @@ const OurClient = () => {
         src={item.image}
         alt=""
         className="
-          
           object-contain
           rounded-full
           w-12 h-12

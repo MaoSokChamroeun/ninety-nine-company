@@ -2,6 +2,9 @@ import React, { useContext } from 'react'
 import Layout from '../layout/Layout'
 import { LanguageContext } from '../context/LanguageContext'
 import Image from '../assets/poster/P2.png'
+import Cover from '../assets/poster/cover8.jpg'
+import Cover2 from '../assets/poster/cover2.jpg'
+import DetailsTiktok from './SocailMedia/DetailsTiktok'
 const BoostTiktok = () => {
     const {text} = useContext(LanguageContext);
    return (
@@ -37,6 +40,17 @@ const BoostTiktok = () => {
                     </div>
                 </div>
             </div>
+           <h1 className='text-center py-10' style={{fontWeight : 'bolder'}} data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out"><span className='text-pink-500' style={{fontWeight : "bolder"}} data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out">Compaige</span> Budget</h1>
+
+            <DetailsTiktok image = {Cover} title = " 1. Information from the Image (Ninety Nine Agency)" />
+            <DetailsTiktok image2 = {Cover} title2 = " 1. Information from the Image (Ninety Nine Agency)" />
+          
         </div>
     </Layout>
   )

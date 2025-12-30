@@ -19,7 +19,7 @@ const OurClientPage = () => {
             data-aos-delay="300"
             data-aos-easing="ease-in-out">Client</span>
           </h1>
-          <p className="text-sm md:text-2xl font-bold mt-4" data-aos="fade-up"
+          <p className="text-sm md:text-2xl font-bold mt-4 text-gray-400" data-aos="fade-up"
             data-aos-duration="350"
             data-aos-delay="350"
             data-aos-easing="ease-in-out">
@@ -40,6 +40,7 @@ const OurClientPage = () => {
               xl:grid-cols-4
               xl:gap-4
               justify-items-center
+              
             "
             data-aos="fade-up"
             data-aos-duration="300"
@@ -48,23 +49,25 @@ const OurClientPage = () => {
               <div
                 key={item.id}
                 onClick={() => setSelectedClient(item)}
-                className="
-                  flex 
-                  items-center 
-                  justify-center
-                  shadow
-                  rounded-lg
-                  w-[171px] h-30  
-                  sm:w-[290px] sm:h-28
-                  md:w-[230px] md:h-28
-                  lg:w-[323px] lg:h-32
-                  xl:w-[300px] xl:h-38
-                  cursor-pointer
-                  hover:shadow-xl
-                  hover:bg-pink-500
-                  transition duration-300
-                  
-                "
+               className="
+                     flex 
+                items-center 
+                justify-center
+                shadow
+                rounded-lg
+                w-[171px] h-30  
+                sm:w-[290px] sm:h-28
+                md:w-[230px] md:h-28
+                lg:w-[323px] lg:h-32
+                xl:w-[300px] xl:h-38
+                cursor-pointer
+                hover:bg-gray-400
+                transform
+                hover:scale-105
+                transition-all
+                duration-300 ease-out
+                    "
+
                 data-aos="fade-up"
                 data-aos-duration="800"
               >
