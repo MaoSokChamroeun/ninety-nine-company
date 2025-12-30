@@ -32,15 +32,15 @@ const WorkFlow = () => {
             </h2>
            
             <ul className="space-y-2">
-              <li className="flex items-center gap-2 text-gray-500">
+              <li className="flex items-center gap-2 nav-link">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
                 {text?.workflow?.beforeboost?.check_page}
               </li>
-              <li className="flex items-center gap-2 text-gray-500">
+              <li className="flex items-center gap-2 nav-link">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
                 {text?.workflow?.beforeboost?.check_ads}
               </li>
-              <li className="flex items-center gap-2 text-gray-500">
+              <li className="flex items-center gap-2 nav-link">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
                 {text?.workflow?.beforeboost?.check_content}  
               </li>
@@ -61,15 +61,15 @@ const WorkFlow = () => {
               <span className='text-pink-500' style={{fontWeight : "bolder"}}>{text?.workflow?.beforeboost?.before_title}</span>
             </h2>
             <ul className="space-y-2">
-              <li className="flex items-center gap-2 text-gray-500">
+              <li className="flex items-center gap-2 nav-link">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
                 {text?.workflow?.during_boosting?.check_ads_perfor}
               </li>
-              <li className="flex items-center gap-2 text-gray-500">
+              <li className="flex items-center gap-2 nav-link">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
                 {text?.workflow?.during_boosting?.adj_perfor}
               </li>
-              <li className="flex items-center gap-2 text-gray-500">
+              <li className="flex items-center gap-2 nav-link">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
                 {text?.workflow?.during_boosting?.report_client}
               </li>
@@ -88,15 +88,15 @@ const WorkFlow = () => {
               <span className='text-pink-500' style={{fontWeight : "bolder"}}>{text?.workflow?.during_boosting?.during_title}</span>
             </h2>
             <ul className="space-y-2">
-              <li className="flex items-center gap-2 text-gray-500">
+              <li className="flex items-center gap-2 nav-link">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
                 {text?.workflow?.after_boosting?.setting_next_objectives}
               </li>
-              <li className="flex items-center gap-2 text-gray-500">
+              <li className="flex items-center gap-2 nav-link">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
                 {text?.workflow?.after_boosting?.after_report_client}
               </li>
-              <li className="flex items-center gap-2 text-gray-500">
+              <li className="flex items-center gap-2 nav-link">
                 <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
                 {text?.workflow?.after_boosting?.research}
               </li>

@@ -34,8 +34,8 @@ const Contact = () => {
             data-aos-duration="500"
             data-aos-delay="500"
             data-aos-easing="ease-in-out">
-              <h1 className="text-xl font-semibold mb-2">Get in Touch</h1>
-              <p className="mt-2 text-gray-400 mb-4">
+              <h1 className="text-xl font-semibold mb-2 nav-link">Get in Touch</h1>
+              <p className="mt-2 nav-link mb-4">
                 We'd love to hear from you! Whether you have a question, need support, or just want to say hello, drop us a message and we'll get back to you shortly.
               </p>
 

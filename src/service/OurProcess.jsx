@@ -14,7 +14,7 @@ export default function OurProcess() {
             data-aos-delay="300"
             data-aos-easing="ease-in-out">Our</span> Process</h1>
         <div className="w-[full] mx-auto">
-          <p className="text-gray-400 mt-3 mx-auto " 
+          <p className="nav-link mt-3 mx-auto " 
             data-aos="fade-up"
             data-aos-duration="400"
             data-aos-delay="400"
@@ -51,7 +51,7 @@ export default function OurProcess() {
                 <p className="mt-6 sm:text-[18px] text-[16px] font-semibold process-color">
                   {step.title}
                 </p>
-                <p className="mt-2 text-gray-400 text-sm">
+                <p className="mt-2 nav-link text-sm">
                   {step.description}
                 </p>
               </div>

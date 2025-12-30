@@ -42,9 +42,9 @@ body {
 }
 
 /* Hover */
-.nav-link:hover {
+/* .nav-link:hover {
   background-color: var(--nav-hover);
-}
+} */
 
 /* Active link */
 .active-link {

@@ -94,7 +94,7 @@ const ABout = () => {
                             <span><img src={items.icon} alt="" width={50} className='rounded-full' /></span>
                         </div>
                         <p className='text-center text-2xl text-pink-500' style={{fontWeight : "bolder"}}>{text?.ourmision?.[items.section]?.[items.titleKey]}</p>
-                            <div className='text-center text-gray-400'>
+                            <div className='text-center nav-link'>
                                {text?.ourmision?.[items.section]?.[items.descKey]}
                             </div>
                     </div>
@@ -112,7 +112,7 @@ const ABout = () => {
             data-aos-duration="300"
             data-aos-delay="300"
             data-aos-easing="ease-in-out">Our</span> Vistion</h1>
-           <p className='text-center text-gray-400 max-w-4xl mx-auto' data-aos="fade-up"
+           <p className='text-center nav-link max-w-4xl mx-auto' data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="500"
             data-aos-easing="ease-in-out">

@@ -38,23 +38,22 @@ const FAQ = () => {
         Find answers to common questions about our services
       </p>
 
-      <div
-        className="space-y-4" >
+      <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="border rounded-lg p-2 cursor-pointer transition-all duration-300"  data-aos="fade-up"
-              data-aos-duration="300"
-              data-aos-delay="300"
-              data-aos-easing="ease-in-out"
+            className="border rounded-lg p-2 cursor-pointer transition-all duration-300"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out"
             onClick={() => toggleFAQ(index)}
           >
-            <div
-              className="flex justify-between items-center"
-             
-            >
-              <p className="font-semibold text-[18px]">{faq.question}</p>
-              <span className="text-pink-500 text-xl">
+            <div className="flex justify-between items-center">
+              <p className="font-semibold text-[18px] flex items-center">
+                {faq.question}
+              </p>
+              <span className="text-pink-500 text-2xl flex items-center">
                 {activeIndex === index ? "−" : "+"}
               </span>
             </div>

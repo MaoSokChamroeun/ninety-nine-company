@@ -33,7 +33,7 @@ const OurSerive = () => {
 
       <div className="content mt-3">
          <span className="text-pink-500" style={{fontWeight : "bold"}}>{text?.services?.[service.titleKey.split(".")[1]]?.title}</span>
-        <div className="desc m-2 text-center text-gray-500">
+        <div className="desc m-2 text-center nav-link">
           <span>{text?.services?.[service.descKey.split(".")[1]]?.desc}</span>
         </div>
         <button>
