@@ -6,7 +6,7 @@ const OurWork = () => {
     <div className="mt-10 px-4">
       <div className="w-full mx-auto">
         <h1 className="text-center pt-5 text-3xl md:text-4xl" style={{fontWeight : 'bolder' , fontSize : '50px'}}>
-          <span className="text-pink-400" style={{fontWeight : 'bolder'}}>Our</span> Work
+          <span className="text-pink-500" style={{fontWeight : 'bolder'}}>Our</span> Work
         </h1>
 
         <div

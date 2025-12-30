@@ -6,6 +6,7 @@ import '../index.css'
 import { LanguageContext } from '../context/LanguageContext'
 import OurProcess from '../service/OurProcess'
 import Digital from '../components/Digital'
+import FAQ from './FAQ'
 const ABout = () => {
   const {text} = useContext(LanguageContext);
   return (
@@ -84,7 +85,8 @@ const ABout = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
                     {
                       ourmisssions.map((items) => (
-                        <div className='max-w-xl  mx-auto p-4 rounded-2xl' data-aos ="fade-up" 
+                        <div className='max-w-xl  mx-auto p-4 rounded-2xl' 
+                            data-aos ="fade-up" 
                             data-aos-duration="500"
                             data-aos-delay="500"
                             data-aos-easing="ease-in-out" key={items.id}>
@@ -121,9 +123,9 @@ const ABout = () => {
         <div className="mt-20">
           <OurProcess />
         </div>
-        {/* <div className="mt-10">
-          <Digital />
-        </div> */}
+        <div className="mt-10">
+          <FAQ />
+        </div>
       </div>
     </Layout>
   )
