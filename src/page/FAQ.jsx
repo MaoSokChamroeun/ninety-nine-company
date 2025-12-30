@@ -54,7 +54,7 @@ const FAQ = () => {
                 {faq.question}
               </p>
               <span className="text-pink-500 text-2xl flex items-center">
-                {activeIndex === index ? "−" : "+"}
+                {activeIndex === index ? "▲" : "▼"}
               </span>
             </div>
 
