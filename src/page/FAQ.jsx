@@ -39,24 +39,19 @@ const FAQ = () => {
       </p>
 
       <div
-        className="space-y-4"
-        data-aos="fade-up"
-        data-aos-duration="500"
-        data-aos-delay="500"
-        data-aos-easing="ease-in-out"
-      >
+        className="space-y-4" >
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="border rounded-lg p-2 cursor-pointer transition-all duration-300"
+            className="border rounded-lg p-2 cursor-pointer transition-all duration-300"  data-aos="fade-up"
+              data-aos-duration="300"
+              data-aos-delay="300"
+              data-aos-easing="ease-in-out"
             onClick={() => toggleFAQ(index)}
           >
             <div
               className="flex justify-between items-center"
-              data-aos="fade-up"
-              data-aos-duration="300"
-              data-aos-delay="300"
-              data-aos-easing="ease-in-out"
+             
             >
               <p className="font-semibold text-[18px]">{faq.question}</p>
               <span className="text-pink-500 text-xl">

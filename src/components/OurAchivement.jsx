@@ -7,20 +7,35 @@ const OurAchivement = () => {
     <div className="w-full">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-[500px] text-center">
-          <h1 className="text-4xl font-extrabold" style={{fontWeight : "bolder"}} data-aos="fade-up"  
-                            data-aos-duration="300"
-                            data-aos-delay="300"
-                            data-aos-easing="ease-in-out">
-            <span className="text-pink-500" style={{fontWeight : "bolder"}} data-aos ="fade-up" 
-                            data-aos-duration="300"
-                            data-aos-delay="300"
-                            data-aos-easing="ease-in-out">Our</span> Achievement
-          </h1>
-          <p className="mt-2 text-gray-400" 
-            data-aos="fade-up" 
+          <h1
+            className="text-4xl font-extrabold"
+            style={{ fontWeight: "bolder" }}
+            data-aos="fade-up"
             data-aos-duration="300"
             data-aos-delay="300"
-            data-aos-easing="ease-in-out">We have achieved great milestones in our journey.</p>
+            data-aos-easing="ease-in-out"
+          >
+            <span
+              className="text-pink-500"
+              style={{ fontWeight: "bolder" }}
+              data-aos="fade-up"
+              data-aos-duration="300"
+              data-aos-delay="300"
+              data-aos-easing="ease-in-out"
+            >
+              Our
+            </span>{" "}
+            Achievement
+          </h1>
+          <p
+            className="mt-2 text-gray-400"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out"
+          >
+            We have achieved great milestones in our journey.
+          </p>
         </div>
 
         <div className="mx-auto mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-10">
@@ -42,12 +57,12 @@ const OurAchivement = () => {
                   data-aos-duration="300"
                   data-aos-delay={item.delay_icon}
                 />
-
                 <Counter
-                  key={item.title}  
+                  key={item.title}
                   end={item.number}
                   className="font-semibold"
-                />+
+                />
+                +
               </div>
 
               <div className="mt-4 text-xl font-semibold nav-link">
@@ -55,26 +70,39 @@ const OurAchivement = () => {
               </div>
             </div>
           ))}
-
         </div>
       </div>
-          {/* Trush by client */}
+      {/* Trush by client */}
       <div className="w-full mx-auto mt-10">
-        <p className="text-center" data-aos ="fade-up" 
-                            data-aos-duration="500"
-                            data-aos-delay="500"
-                            data-aos-easing="ease-in-out">Trusted by startup and growing businesses to deliver creative,relaible, and reuslts-driven digital solutions</p>
-        <p className="text-center" data-aos ="fade-up" 
-                            data-aos-duration="500"
-                            data-aos-delay="500"
-                            data-aos-easing="ease-in-out">Trush By Client and Companies</p>
+        <p
+          className="text-center"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="500"
+          data-aos-easing="ease-in-out"
+        >
+          Trusted by startup and growing businesses to deliver
+          creative,relaible, and reuslts-driven digital solutions
+        </p>
+        <p
+          className="text-center"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="500"
+          data-aos-easing="ease-in-out"
+        >
+          Trush By Client and Companies
+        </p>
       </div>
-        <div className="w-full" data-aos ="fade-in" 
-                            data-aos-duration="400"
-                            data-aos-delay="400"
-                            data-aos-easing="ease-in-out">
-            <RightCarousel />
-        </div>
+      <div
+        className="w-full"
+        data-aos="fade-in"
+        data-aos-duration="400"
+        data-aos-delay="400"
+        data-aos-easing="ease-in-out"
+      >
+        <RightCarousel />
+      </div>
     </div>
   );
 };
