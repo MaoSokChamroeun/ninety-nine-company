@@ -27,7 +27,7 @@ const OurSerive = () => {
 
       <div className="container-fluid mx-auto mt-4">
         <div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mx-auto"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 items-center justify-between mx-auto"
           data-aos="fade-up"
           data-aos-duration="300"
           data-aos-delay="300"
@@ -40,7 +40,7 @@ const OurSerive = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <div className="work-flow-box p-2  rounded-xl sm:h-[250px]">
+              <div className="work-flow-box p-2 rounded-xl sm:h-[250px]">
                 <div className="icon w-full flex justify-center">
                 <span className="max-w-2xs p-2 rounded-full shadow">
                   <img
