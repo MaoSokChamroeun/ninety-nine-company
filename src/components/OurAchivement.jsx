@@ -28,7 +28,7 @@ const OurAchivement = () => {
             Achievement
           </h1>
           <p
-            className="mt-2 text-gray-400"
+            className="mt-2 nav-link"
             data-aos="fade-up"
             data-aos-duration="300"
             data-aos-delay="300"
@@ -42,12 +42,13 @@ const OurAchivement = () => {
           {achievementData.map((item, index) => (
             <div
               key={index}
-              className="flex h-[150px] flex-col items-center justify-center rounded-lg  shadow"
+              className="flex h-[150px] flex-col items-center justify-center rounded-lg shadow max-w-xl h-auto hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay={item.delay}
             >
-              <div className="flex items-center gap-2 text-5xl text-pink-500">
+              <div className="work-flow-box w-full rounded-xl flex flex-col items-center justify-center p-4">
+                <div className="flex items-center gap-2 text-5xl text-pink-500 ">
                 <img
                   src={item.icon}
                   alt=""
@@ -68,6 +69,8 @@ const OurAchivement = () => {
               <div className="mt-4 text-xl font-semibold nav-link">
                 {item.title}
               </div>
+              </div>
+              
             </div>
           ))}
         </div>

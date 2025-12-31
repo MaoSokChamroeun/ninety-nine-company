@@ -33,7 +33,7 @@ const WorkFlow = () => {
                         grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 
                         gap-6 "
         >
-          <div
+          <div 
             className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
             data-aos="fade-up"
             data-aos-duration="300"

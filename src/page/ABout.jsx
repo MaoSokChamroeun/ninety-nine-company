@@ -85,11 +85,12 @@ const ABout = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
                     {
                       ourmisssions.map((items) => (
-                        <div className='max-w-xl  mx-auto p-4 rounded-2xl' 
-                            data-aos ="fade-up" 
+                        <div className='max-w-xl h-auto hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]' data-aos ="fade-up" 
                             data-aos-duration="500"
                             data-aos-delay="500"
                             data-aos-easing="ease-in-out" key={items.id}>
+                          <div className='max-w-xl h-[250px] work-flow-box mx-auto p-4 rounded-xl' 
+                            >
                         <div className="icon flex justify-center p-3">
                             <span><img src={items.icon} alt="" width={50} className='rounded-full' /></span>
                         </div>
@@ -97,7 +98,9 @@ const ABout = () => {
                             <div className='text-center nav-link'>
                                {text?.ourmision?.[items.section]?.[items.descKey]}
                             </div>
-                    </div>
+                        </div>
+                        </div>
+                        
                       ))
                     }
                 </div>
