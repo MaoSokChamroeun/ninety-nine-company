@@ -27,7 +27,7 @@ const OurSerive = () => {
 
       <div className="container-fluid mx-auto mt-4">
         <div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mx-auto"
           data-aos="fade-up"
           data-aos-duration="300"
           data-aos-delay="300"
@@ -35,12 +35,12 @@ const OurSerive = () => {
         >
           {data.map((service) => (
             <div
-              className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] text-center"
+              className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] text-center "
               key={service.id}
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <div className="work-flow-box p-2 h-auto rounded-xl">
+              <div className="work-flow-box p-2  rounded-xl sm:h-[250px]">
                 <div className="icon w-full flex justify-center">
                 <span className="max-w-2xs p-2 rounded-full shadow">
                   <img
