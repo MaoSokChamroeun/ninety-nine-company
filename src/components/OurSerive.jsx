@@ -35,12 +35,13 @@ const OurSerive = () => {
         >
           {data.map((service) => (
             <div
-              className="text-center p-2 shadow max-w-md rounded-lg border-2 border-[rgba(167,167,167,0.5)] rounded-[1.5em] text-white font-nunito p-[1em] flex justify-center items-left flex-col gap-[0.75em] backdrop-blur-[12px]"
+              className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] text-center"
               key={service.id}
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <div className="icon w-full flex justify-center">
+              <div className="work-flow-box p-2  rounded-xl">
+                <div className="icon w-full flex justify-center">
                 <span className="max-w-2xs p-2 rounded-full shadow">
                   <img
                     src={service.icon}
@@ -74,6 +75,7 @@ const OurSerive = () => {
                     View Details
                   </Link>
                 </button>
+              </div>
               </div>
             </div>
           ))}
