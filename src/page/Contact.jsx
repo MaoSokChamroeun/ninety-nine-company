@@ -1,26 +1,32 @@
-import React from 'react'
-import poster from '../assets/poster/cover3.jpg'
-import Layout from '../layout/Layout'
-import { Link } from 'react-router-dom'
+import React from "react";
+import poster from "../assets/poster/cover3.jpg";
+import Layout from "../layout/Layout";
+import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <Layout>
       <div className="container-fluid mt-30 px-4">
         <div className="max-w-7xl mx-auto">
-          <p className="text-center font-semibold mb-6"
+          <p
+            className="text-center font-semibold mb-6"
             data-aos="fade-up"
             data-aos-duration="300"
             data-aos-delay="300"
             data-aos-easing="ease-in-out"
-          >Contact Us</p>
+          >
+            Contact Us
+          </p>
 
           {/* Responsive grid */}
           <div className="mt-10 grid md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 gap-6">
             {/* Image */}
-            <div className="w-full" data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="500"
-            data-aos-easing="ease-in-out">
+            <div
+              className="w-full"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="500"
+              data-aos-easing="ease-in-out"
+            >
               <img
                 src={poster}
                 alt="Contact Poster"
@@ -30,22 +36,34 @@ const Contact = () => {
             </div>
 
             {/* Form */}
-            <div className="w-full" data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="500"
-            data-aos-easing="ease-in-out">
-              <h1 className="text-xl font-semibold mb-2 nav-link">Get in Touch</h1>
+            <div
+              className="w-full"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="500"
+              data-aos-easing="ease-in-out"
+            >
+              <h1 className="text-xl font-semibold mb-2 nav-link">
+                Get in Touch
+              </h1>
               <p className="mt-2 nav-link mb-4">
-                We'd love to hear from you! Whether you have a question, need support, or just want to say hello, drop us a message and we'll get back to you shortly.
+                We'd love to hear from you! Whether you have a question, need
+                support, or just want to say hello, drop us a message and we'll
+                get back to you shortly.
               </p>
 
-              <form className="space-y-4 mt-20" data-aos="fade-up"
-            data-aos-duration="700"
-            data-aos-delay="700"
-            data-aos-easing="ease-in-out">
+              <form
+                className="space-y-4 mt-20"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="700"
+                data-aos-easing="ease-in-out"
+              >
                 {/* Name */}
                 <div>
-                  <label htmlFor="name" className="block mb-1 font-medium">Name</label>
+                  <label htmlFor="name" className="block mb-1 font-medium">
+                    Name
+                  </label>
                   <input
                     type="text"
                     id="name"
@@ -56,7 +74,9 @@ const Contact = () => {
 
                 {/* Email */}
                 <div>
-                  <label htmlFor="email" className="block mb-1 font-medium">Email Address</label>
+                  <label htmlFor="email" className="block mb-1 font-medium">
+                    Email Address
+                  </label>
                   <input
                     type="email"
                     id="email"
@@ -66,7 +86,9 @@ const Contact = () => {
                 </div>
                 {/* Message */}
                 <div>
-                  <label htmlFor="message" className="block mb-1 font-medium">Message</label>
+                  <label htmlFor="message" className="block mb-1 font-medium">
+                    Message
+                  </label>
                   <textarea
                     id="message"
                     rows="5"
@@ -76,12 +98,9 @@ const Contact = () => {
                 </div>
 
                 {/* Submit button */}
-                <div className="text-right">
-                  <button
-                    type="submit"
-                    className="px-6 py-2 bg-pink-600 rounded-lg text-white font-semibold hover:bg-pink-700 transition"
-                  >
-                    <Link to="https://t.me/Mengchhayx99" className='text-decoration-none text-white'>Contact</Link>
+                <div className="text-right rounded-xl flex justify-end">
+                  <button class="w-[150px] bg-black h-[50px] my-3 flex items-center justify-center cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#ff0389] before:to-[rgb(255,0,174)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1]  hover:before:left-0 text-[#fff]">
+                    <Link to={'https://t.me/Mengchhayx99'} className="text-decoration-none text-white">Contact</Link>
                   </button>
                 </div>
               </form>
@@ -89,28 +108,37 @@ const Contact = () => {
           </div>
         </div>
       </div>
-       <div className="mt-32">
-            <h1 className='text-center'
-            data-aos ="fade-up" 
-            data-aos-duration="300"
-            data-aos-delay="300"
-            data-aos-easing="ease-in-out" style={{fontWeight : "bolder"}}><span className='text-pink-500'
-            style={{fontWeight : "bolder"}}>Our</span> Location</h1>
-            <div className="w-full h-96 md:h-96 rounded-lg shadow-md overflow-hidden" 
-            data-aos="fade-up"
-            data-aos-duration="700"
-            data-aos-delay="700"
-            data-aos-easing="ease-in-out">
-              <iframe
-                title="Location Map"
-                className="w-full h-full border-0"
-                src="https://maps.google.com/maps?q=11.522890,104.803582&z=16&output=embed"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
+      <div className="mt-32">
+        <h1
+          className="text-center"
+          data-aos="fade-up"
+          data-aos-duration="300"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-out"
+          style={{ fontWeight: "bolder" }}
+        >
+          <span className="text-pink-500" style={{ fontWeight: "bolder" }}>
+            Our
+          </span>{" "}
+          Location
+        </h1>
+        <div
+          className="w-full h-96 md:h-96 rounded-lg shadow-md overflow-hidden"
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-delay="700"
+          data-aos-easing="ease-in-out"
+        >
+          <iframe
+            title="Location Map"
+            className="w-full h-full border-0"
+            src="https://maps.google.com/maps?q=11.522890,104.803582&z=16&output=embed"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

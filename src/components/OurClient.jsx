@@ -4,13 +4,22 @@ import clients from "../data/clients";
 const OurClient = () => {
   return (
     <div className="w-full mt-10 px-4">
-      <h1 className="text-center text-2xl font-semibold" style={{fontWeight : 'bolder' , fontSize : '50px'}}>
-        <span className="text-pink-500" style={{fontWeight : 'bolder' , fontSize : '50px'}}>Our</span> Client
+      <h1
+        className="text-center text-2xl font-semibold"
+        style={{ fontWeight: "bolder", fontSize: "50px" }}
+      >
+        <span
+          className="text-pink-500"
+          style={{ fontWeight: "bolder", fontSize: "50px" }}
+        >
+          Our
+        </span>{" "}
+        Client
       </h1>
 
-    <div className="max-w-full mx-auto mt-10">
- <div
-  className="
+      <div className="max-w-full mx-auto mt-10">
+        <div
+          className="
     grid
     grid-cols-2
     sm:grid-cols-3
@@ -19,13 +28,13 @@ const OurClient = () => {
     xl:grid-cols-9
     justify-items-center
   "
-  data-aos="fade-up"
-  data-aos-duration="300"
->
-  {clients.map((item) => (
-    <div
-      key={item.id}
-      className="
+          data-aos="fade-up"
+          data-aos-duration="300"
+        >
+          {clients.map((item) => (
+            <div
+              key={item.id}
+              className="
         flex items-center justify-center
         our-client-icon
         border-1 border-gray-600 
@@ -35,26 +44,24 @@ const OurClient = () => {
         lg:w-[160px] lg:h-30
         xl:w-[206px] xl:h-32
       "
-      data-aos="zoom-in"
-      data-aos-duration="800"
-    >
-      <img
-        src={item.image}
-        alt=""
-        className="
+              data-aos="zoom-in"
+              data-aos-duration="800"
+            >
+              <img
+                src={item.image}
+                alt=""
+                className="
           object-contain
           rounded-full
           w-12 h-12
           sm:w-14 sm:h-14
           md:w-20 md:h-20
         "
-      />
-    </div>
-    ))}
-    </div>
-
-    </div>
-
+              />
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

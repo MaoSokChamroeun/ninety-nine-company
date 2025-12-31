@@ -7,6 +7,7 @@
   --nav-bg: #ffffff;
   --nav-hover: #e5e7eb;
   --nav-active: #ec4899; 
+  --box-flow : #e5e7eb;
 }
 
 [data-theme="dark"] {
@@ -15,6 +16,7 @@
   --nav-bg: #020617;
   --nav-hover: #1e293b;
   --nav-active: #ec4899;
+  --box-flow : #020617;
  
 }
 
@@ -35,11 +37,15 @@ body {
 .nav-link {
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
-}
-.service-bg{
+} 
+/* .service-bg{
   color: var(--color-service);
   background-color: var(--bg-service);
 }
+
+.service-bg:hover{
+  
+} */
 
 /* Hover */
 /* .nav-link:hover {
@@ -69,3 +75,26 @@ body {
     0% 50%
   );
 }
+
+.work-flow-box {
+  background-color: var(--box-flow) ;
+  color: var(--text-color);
+}
+/* .shadow-pop-br {
+  display: inline-block;
+}
+
+.shadow-pop-br:hover {
+  animation: shadow-pop-br 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-br {
+  0% {
+    box-shadow: 0 0 #000;
+    transform: translate(0, 0);
+  }
+  100% {
+    box-shadow: 12px 12px #000;
+    transform: translate(-6px, -6px);
+  }
+} */

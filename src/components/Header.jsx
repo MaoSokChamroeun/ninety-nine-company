@@ -198,7 +198,7 @@ const Header = () => {
               </NavLink>
 
             {/* Mobile Service Dropdown */}
-            <div className="px-4 py-6">
+            <div className="px-3 py-6">
                 <DarkModeToggle />
               </div>
 

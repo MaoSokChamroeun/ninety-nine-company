@@ -14,8 +14,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
           {/* Left */}
-          <div>
-            <h1 className="text-2xl font-bold"><Link to={'/'}><img src={logo} alt="logo" width={80} className='rounded-2xl mb-10' /></Link>Ninety Nine & Media</h1>
+          <div >
+            <div className='rounded-full bg-blue-400 w-20 h-20'>
+              <Link to={'/'}><img src={logo} alt="logo" width={80} className='rounded-2xl mb-10' /></Link>
+            </div>
+            <h1 className="text-2xl font-bold">Ninety Nine & Media</h1>
             <p className="mt-2">
               ទីតាំង នៅក្រោយផ្សាររំចែក អូឌឹម03 ផ្លូវជាតិលេខ4
             </p>

@@ -53,7 +53,7 @@ const FAQ = () => {
               <p className="font-semibold text-[18px] flex items-center">
                 {faq.question}
               </p>
-              <span className="text-pink-500 text-2xl flex items-center">
+              <span className="text-pink-500 text-[20px] flex items-center">
                 {activeIndex === index ? "▲" : "▼"}
               </span>
             </div>

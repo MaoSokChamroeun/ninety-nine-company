@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@amihhs/preset-animista": "^0.0.5",
     "@lordicon/react": "^1.11.0",
     "@react-google-maps/api": "^2.20.7",
     "@tailwindcss/vite": "^4.1.17",

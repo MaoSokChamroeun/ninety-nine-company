@@ -1,24 +1,38 @@
-import React, { useContext } from 'react'
-import { ThemeContext, ThemeProvider } from '../context/ThemeContext'
-import { MdOutlineNightlight } from "react-icons/md";
-import { MdOutlineLightMode } from "react-icons/md";
-import '../index.css'
+import React, { useContext } from "react";
+import { ThemeContext } from "../context/ThemeContext";
+import { MdOutlineNightlight, MdOutlineLightMode } from "react-icons/md";
+
 const DarkModeToggle = () => {
-    const {theme , toggleTheme} = useContext(ThemeContext);
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
   return (
     <button
       onClick={toggleTheme}
+      aria-label="Toggle Dark Mode"
       style={{
-        background: "transparent",
+        width: "42px",
+        height: "42px",
+        borderRadius: "12px",
+        backgroundColor: theme === "light" ? "#ffffff" : "#020617",
+        boxShadow:
+          theme === "light"
+            ? "3px 2px 6px rgba(0,0,0,0.2), -2px -2px 6px rgba(255,255,255,0.9)"
+            : "3px 2px 6px rgba(0,0,0,0.8), -2px -2px 6px rgba(255,255,255,0.1)",
         border: "none",
         cursor: "pointer",
-        fontSize: "20px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        transition: "all 0.3s ease",
       }}
-      aria-label="Toggle Dark Mode"
     >
-      {theme === "light" ? <MdOutlineNightlight fontSize={25} /> : <MdOutlineLightMode fontSize={25} />}
+      {theme === "light" ? (
+        <MdOutlineNightlight size={22} />
+      ) : (
+        <MdOutlineLightMode size={22} />
+      )}
     </button>
-  )
-}
+  );
+};
 
-export default DarkModeToggle
+export default DarkModeToggle;
