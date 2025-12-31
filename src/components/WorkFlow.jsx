@@ -27,7 +27,7 @@ const WorkFlow = () => {
         Flow
       </h1>
 
-      <div className="w-full py-10">
+      <div className="w-full py-5">
         <div
           className="max-w-screen-xl mx-auto 
                         grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 
@@ -40,8 +40,8 @@ const WorkFlow = () => {
             data-aos-delay="100"
             data-aos-easing="ease-in-out"
           >
-            <div className="rounded-[10px] work-flow-box p-4 !pt-20 sm:p-6 h-full">
-              <h2 className=" text-center text-lg mb-4">
+            <div className="rounded-[10px] work-flow-box p-4 pt-15! sm:p-6 h-full">
+              <h2 className="text-center text-lg mb-4">
                 <span
                   className="text-pink-500"
                   style={{ fontWeight: "bolder" }}
@@ -50,17 +50,23 @@ const WorkFlow = () => {
                 </span>
               </h2>
               <ul className="space-y-2">
-                <li className="flex items-center gap-2 nav-link">
-                  <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                  {text?.workflow?.beforeboost?.check_page}
+                <li className="nav-link">
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 bg-pink-500 animate-pulse h-3 rounded-full animate-bounce"></div>
+                    {text?.workflow?.beforeboost?.check_page}
+                  </div>
                 </li>
-                <li className="flex items-center gap-2 nav-link">
-                  <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                  {text?.workflow?.beforeboost?.check_ads}
+                <li className="nav-link">
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 bg-pink-500 animate-pulse h-3 rounded-full animate-bounce"></div>
+                    {text?.workflow?.beforeboost?.check_ads}
+                  </div>
                 </li>
-                <li className="flex items-center gap-2 nav-link">
-                  <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                  {text?.workflow?.beforeboost?.check_content}
+                <li className="nav-link">
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 bg-pink-500 animate-pulse h-3 rounded-full animate-bounce"></div>
+                    {text?.workflow?.beforeboost?.check_content}
+                  </div>
                 </li>
               </ul>
             </div>
@@ -73,28 +79,36 @@ const WorkFlow = () => {
             data-aos-delay="300"
             data-aos-easing="ease-in-out"
           >
-            <div className="rounded-[10px] work-flow-box p-4 !pt-20 sm:p-6 h-full">
+            <div className="rounded-[10px] work-flow-box p-4 pt-15! sm:p-6 h-full">
               <h2 className="text-center font-semibold text-lg mb-4">
-              <span className="text-pink-500" style={{ fontWeight: "bolder" }}>
-                {text?.workflow?.beforeboost?.before_title}
-              </span>
-            </h2>
-             <ul className="space-y-2">
-              <li className="flex items-center gap-2 nav-link">
-                <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                {text?.workflow?.during_boosting?.check_ads_perfor}
-              </li>
-              <li className="flex items-center gap-2 nav-link">
-                <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                {text?.workflow?.during_boosting?.adj_perfor}
-              </li>
-              <li className="flex items-center gap-2 nav-link">
-                <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                {text?.workflow?.during_boosting?.report_client}
-              </li>
-            </ul>
+                <span
+                  className="text-pink-500"
+                  style={{ fontWeight: "bolder" }}
+                >
+                  {text?.workflow?.beforeboost?.before_title}
+                </span>
+              </h2>
+              <ul className="space-y-2">
+                <li className="nav-link">
+                  <div className="flex items-center gap-2 ">
+                    <div className="w-3 bg-pink-500 animate-pulse h-3 rounded-full animate-bounce"></div>
+                    {text?.workflow?.during_boosting?.check_ads_perfor}
+                  </div>
+                </li>
+                <li className="nav-link">
+                  <div className="flex items-center gap-2 ">
+                    <div className="w-3 bg-pink-500 animate-pulse h-3 rounded-full animate-bounce"></div>
+                    {text?.workflow?.during_boosting?.adj_perfor}
+                  </div>
+                </li>
+                <li className="nav-link">
+                  <div className="flex items-center gap-2 ">
+                    <div className="w-3 bg-pink-500 animate-pulse h-3 rounded-full animate-bounce"></div>
+                    {text?.workflow?.during_boosting?.report_client}
+                  </div>
+                </li>
+              </ul>
             </div>
-           
           </div>
 
           <div
@@ -104,28 +118,36 @@ const WorkFlow = () => {
             data-aos-delay="500"
             data-aos-easing="ease-in-out"
           >
-            <div className="rounded-[10px] work-flow-box p-4 !pt-20 sm:p-6 h-full">
-               <h2 className="text-center  font-semibold text-lg mb-4">
-              <span className="text-pink-500" style={{ fontWeight: "bolder" }}>
-                {text?.workflow?.during_boosting?.during_title}
-              </span>
-            </h2>
-            <ul className="space-y-2">
-              <li className="flex items-center gap-2 nav-link">
-                <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                {text?.workflow?.after_boosting?.setting_next_objectives}
-              </li>
-              <li className="flex items-center gap-2 nav-link">
-                <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                {text?.workflow?.after_boosting?.after_report_client}
-              </li>
-              <li className="flex items-center gap-2 nav-link">
-                <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                {text?.workflow?.after_boosting?.research}
-              </li>
-            </ul>
+            <div className="rounded-[10px] work-flow-box p-4 pt-15! sm:p-6 h-full">
+              <h2 className="text-center  font-semibold text-lg mb-4">
+                <span
+                  className="text-pink-500"
+                  style={{ fontWeight: "bolder" }}
+                >
+                  {text?.workflow?.during_boosting?.during_title}
+                </span>
+              </h2>
+              <ul className="space-y-2">
+                <li className="nav-link">
+                  <div className="flex items-center gap-2 ">
+                    <div className="w-3 bg-pink-500 animate-pulse h-3 rounded-full animate-bounce"></div>
+                    {text?.workflow?.after_boosting?.setting_next_objectives}
+                  </div>
+                </li>
+                <li className="nav-link">
+                  <div className="flex items-center gap-2 ">
+                    <div className="w-3 bg-pink-500 animate-pulse h-3 rounded-full animate-bounce"></div>
+                    {text?.workflow?.after_boosting?.after_report_client}
+                  </div>
+                </li>
+                <li className="nav-link">
+                  <div className="flex items-center gap-2 ">
+                    <div className="w-3 bg-pink-500 animate-pulse h-3 rounded-full animate-bounce"></div>
+                    {text?.workflow?.after_boosting?.research}
+                  </div>
+                </li>
+              </ul>
             </div>
-           
           </div>
         </div>
       </div>
