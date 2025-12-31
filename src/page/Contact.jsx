@@ -99,14 +99,14 @@ const Contact = () => {
 
                 {/* Submit button */}
                 <div className="text-right flex justify-end">
-                  <button class="relative inline-flex h-12 active:scale-95 transistion overflow-hidden rounded-lg p-[2px] focus:outline-none">
-                    <span class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#e7029a_0%,#f472b6_50%,#bd5fff_100%)]"></span>
-                    <span class="inline-flex h-full w-full cursor-pointer items-center justify-center bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 undefined">
+                  <button className="relative inline-flex h-12 active:scale-95 transistion overflow-hidden rounded-lg p-[2px] focus:outline-none">
+                    <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#e7029a_0%,#f472b6_50%,#bd5fff_100%)]"></span>
+                    <span className="inline-flex h-full w-full cursor-pointer items-center justify-center bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 undefined">
                       <Link className="text-decoration-none text-white" to={'https://t.me/Mengchhayx99'}>Contact me</Link>
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 448 512"
                         height="1em"
                         width="1em"
