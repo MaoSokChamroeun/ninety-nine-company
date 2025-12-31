@@ -89,7 +89,7 @@ const ABout = () => {
                             data-aos-duration="500"
                             data-aos-delay="500"
                             data-aos-easing="ease-in-out" key={items.id}>
-                          <div className='max-w-xl h-[250px] work-flow-box mx-auto p-4 rounded-xl' 
+                          <div className='max-w-xl h-[auto] work-flow-box mx-auto p-4 rounded-xl lg:h-[250px] xl:h-[250px] sm:h-[350px] md:h-[300px]' 
                             >
                         <div className="icon flex justify-center p-3">
                             <span><img src={items.icon} alt="" width={50} className='rounded-full' /></span>
