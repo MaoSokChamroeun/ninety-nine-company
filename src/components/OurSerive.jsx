@@ -40,7 +40,7 @@ const OurSerive = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <div className="work-flow-box p-2 rounded-xl sm:h-[250px]">
+              <div className="work-flow-box p-2 rounded-xl ">
                 <div className="icon w-full flex justify-center">
                 <span className="max-w-2xs p-2 rounded-full shadow">
                   <img

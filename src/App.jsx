@@ -19,7 +19,6 @@ import OurClientPage from './page/OurClientPage'
 import BlueStic from './service/BlueStic'
 import Consolting from './service/Consolting'
 import BoostTiktok from './service/BoostTiktok'
-import Photograper from './service/Instagram'
 import Instagram from './service/Instagram'
 import BoostLive from './service/BoostLive'
 function App() {
