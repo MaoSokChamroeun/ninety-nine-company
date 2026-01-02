@@ -68,7 +68,7 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex gap-3 text-3xl mx-auto md:mx-0 bg-gray-300 p-2 px-4 pe-4 rounded-2xl border-1">
-            <Link to="https://web.facebook.com/ninetyninex99" className='bg-gray-400'>
+            <Link to="https://web.facebook.com/ninetyninex99" >
            <FaFacebook className="text-[#1877F2]" />
               </Link>
 

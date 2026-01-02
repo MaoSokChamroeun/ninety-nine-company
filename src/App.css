@@ -1,12 +1,12 @@
 :root {
   --bg-color: #ffffff;
-  --bg-service :#ec4899;
+  --bg-service :#d7006c;
   --color-service : #ffffff;
   --text-color: #020617;
 
   --nav-bg: #ffffff;
   --nav-hover: #e5e7eb;
-  --nav-active: #ec4899; 
+  --nav-active: #d7006c; 
   --box-flow : #ffffff;
 }
 
@@ -15,7 +15,7 @@
   --text-color: #ffffff;
   --nav-bg: #020617;
   --nav-hover: #1e293b;
-  --nav-active: #ec4899;
+  --nav-active: #d7006c;
   --box-flow : #020617;
  
 }
@@ -38,21 +38,7 @@ body {
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 } 
-/* .service-bg{
-  color: var(--color-service);
-  background-color: var(--bg-service);
-}
 
-.service-bg:hover{
-  
-} */
-
-/* Hover */
-/* .nav-link:hover {
-  background-color: var(--nav-hover);
-} */
-
-/* Active link */
 .active-link {
   color: var(--nav-active) !important;
   font-weight: 600;
