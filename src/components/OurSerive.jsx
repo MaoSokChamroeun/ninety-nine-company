@@ -35,12 +35,12 @@ const OurSerive = () => {
         >
           {data.map((service) => (
             <div
-              className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] text-center "
+              className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] text-center lg:h-[250px] xl:h-[250px]"
               key={service.id}
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <div className="work-flow-box p-2 rounded-xl ">
+              <div className="work-flow-box p-2 rounded-xl h-[246px]">
                 <div className="icon w-full flex justify-center">
                 <span className="max-w-2xs p-2 rounded-full shadow">
                   <img
