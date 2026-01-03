@@ -18,7 +18,6 @@ const VideoEditing = () => {
           >
             <span className="text-pink-600" style={{fontWeight : "bolder"}}>Video</span> Editing
           </h1>
-
           <p
             className="text-center p-2 nav-link"
             data-aos="fade-up"
@@ -28,7 +27,6 @@ const VideoEditing = () => {
             {text?.video_editing?.video_desc}
           </p>
         </div>
-
         <div className="max-w-7xl mt-10 mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {videos.map((video, index) => (

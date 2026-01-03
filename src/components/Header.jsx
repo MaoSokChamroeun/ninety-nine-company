@@ -13,7 +13,7 @@ const Header = () => {
   const { text, changeLang, lang } = useContext(LanguageContext);
 
   return (
-    <div className="fixed-top">
+    <header className="fixed-top">
       <nav
           className={`shadow-md p-2 tracking-wide ${
             lang === "kh" ? "font-khmer" : "font-josefin"
@@ -226,7 +226,7 @@ const Header = () => {
           </div>
         )}
       </nav>
-    </div>
+    </header>
   );
 };
 
