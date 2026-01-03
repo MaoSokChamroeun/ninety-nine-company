@@ -19,7 +19,7 @@ const FAQ = () => {
       >
         Frequently Asked{" "}
         <span
-          className="text-pink-500 font-extrabold"
+          className="text-pink-600 font-extrabold"
           data-aos="fade-up"
           data-aos-duration="300"
           data-aos-delay="300"
@@ -29,7 +29,7 @@ const FAQ = () => {
         </span>
       </h2>
       <p
-        className="text-center text-gray-400 mb-10"
+        className="text-center text-gray-700 mb-10"
         data-aos="fade-up"
         data-aos-duration="300"
         data-aos-delay="300"
@@ -53,7 +53,7 @@ const FAQ = () => {
               <p className="font-semibold text-[18px] flex items-center">
                 {faq.question}
               </p>
-              <span className="text-pink-500 text-[20px] flex items-center">
+              <span className="text-pink-600 text-[15px] flex items-center">
                 {activeIndex === index ? "▲" : "▼"}
               </span>
             </div>

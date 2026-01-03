@@ -16,7 +16,7 @@ const BoostTiktok = () => {
                 data-aos-duration="300"
                 data-aos-delay="300"
                 data-aos-easing="ease-in-out"
-                ><span className='text-pink-500' style={{fontWeight : "bolder"}} data-aos="fade-up"
+                ><span className='text-pink-600' style={{fontWeight : "bolder"}} data-aos="fade-up"
                 data-aos-duration="300"
                 data-aos-delay="300"
                 data-aos-easing="ease-in-out">Boost</span> Tiktok</h1>

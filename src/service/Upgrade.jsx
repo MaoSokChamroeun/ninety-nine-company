@@ -11,7 +11,7 @@ const Upgrade = () => {
                 <h1 className='text-center' style={{fontWeight : 'bolder'}} data-aos="fade-up"
             data-aos-duration="300"
             data-aos-delay="300"
-            data-aos-easing="ease-in-out"><span className='text-pink-500' style={{fontWeight : 'bolder'}} data-aos="fade-up"
+            data-aos-easing="ease-in-out"><span className='text-pink-600' style={{fontWeight : 'bolder'}} data-aos="fade-up"
             data-aos-duration="300"
             data-aos-delay="300"
             data-aos-easing="ease-in-out">Upgrade</span> Page</h1>

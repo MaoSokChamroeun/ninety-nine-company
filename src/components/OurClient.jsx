@@ -9,11 +9,11 @@ const OurClient = () => {
         style={{ fontWeight: "bolder", fontSize: "50px" }}
       >
         <span
-          className="text-pink-500"
+          className="text-pink-600"
           style={{ fontWeight: "bolder", fontSize: "50px" }}
         >
           Our
-        </span>{" "}
+        </span>
         Client
       </h1>
 

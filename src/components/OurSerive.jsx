@@ -17,7 +17,7 @@ const OurSerive = () => {
         style={{ fontWeight: "bolder", fontSize: "50px" }}
       >
         <span
-          className="text-pink-500"
+          className="text-pink-600"
           style={{ fontWeight: "bolder", fontSize: "50px" }}
         >
           Our
@@ -47,13 +47,13 @@ const OurSerive = () => {
                     src={service.icon}
                     alt="GIF"
                     width={45}
-                    className="object-cover"
+                    className="object-cover sm:w-[45px] lg:w-[46px] xl:w-[50px]"
                   />
                 </span>
               </div>
 
               <div className="content mt-3">
-                <span className="text-pink-500" style={{ fontWeight: "bold" }}>
+                <span className="text-pink-600" style={{ fontWeight: "bold" }}>
                   {text?.services?.[service.titleKey.split(".")[1]]?.title}
                 </span>
                 <div className="desc m-2 text-center nav-link">
@@ -62,7 +62,7 @@ const OurSerive = () => {
                   </span>
                 </div>
                 <button
-                  className="cursor-pointer transition-all bg-pink-500 text-white px-2 py-2 rounded-lg
+                  className="cursor-pointer transition-all bg-pink-600 text-white px-2 py-2 rounded-lg
                 border-gray-700
                 border-b-[4px] hover:brightness-110 hover:-translate-y-[2px] hover:border-b-[6px]
                 active:border-b-[2px] active:brightness-90 active:translate-y-[2px]"

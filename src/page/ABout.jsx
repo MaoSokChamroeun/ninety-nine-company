@@ -32,14 +32,14 @@ const ABout = () => {
           <span className="text-sm text-center justify-center flex tracking-wide">
             <p style={{ fontWeight: "bolder", fontSize: "20px" }}>
               <span
-                className="text-pink-500"
+                className="text-pink-600"
                 style={{ fontWeight: "bolder", fontSize: "20px" }}
               >
                 Ninety Nine
               </span>{" "}
               is a creative digital agency
               <span
-                className="text-pink-500"
+                className="text-pink-600"
                 style={{ fontWeight: "bolder", fontSize: "20px" }}
               >
                 {" "}
@@ -80,7 +80,7 @@ const ABout = () => {
                 data-aos-easing="ease-in-out"
               >
                 <span
-                  className="text-pink-500 text-center"
+                  className="text-pink-600 text-center"
                   style={{ fontWeight: "bolder" }}
                 >
                   Founder
@@ -97,7 +97,7 @@ const ABout = () => {
                 data-aos-easing="ease-in-out"
               >
                 <span
-                  className="text-pink-500"
+                  className="text-pink-600"
                   style={{ fontWeight: "bolder" }}
                 >
                   Ninety Nine Media & Advertising
@@ -144,7 +144,7 @@ const ABout = () => {
             data-aos-easing="ease-in-out"
             style={{ fontWeight: "bolder" }}
           >
-            <span className="text-pink-500" style={{ fontWeight: "bolder" }}>
+            <span className="text-pink-600" style={{ fontWeight: "bolder" }}>
               Our
             </span>{" "}
             Mission
@@ -153,10 +153,10 @@ const ABout = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {ourmisssions.map((items) => (
                 <div
-                  className="max-w-xl h-auto hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
+                  className="max-w-xl h-auto hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-600 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
                   data-aos="fade-up"
-                  data-aos-duration="500"
-                  data-aos-delay="500"
+                  data-aos-duration="600"
+                  data-aos-delay="600"
                   data-aos-easing="ease-in-out"
                   key={items.id}
                 >
@@ -166,13 +166,13 @@ const ABout = () => {
                         <img
                           src={items.icon}
                           alt=""
-                          width={50}
+                          width={55}
                           className="rounded-full"
                         />
                       </span>
                     </div>
                     <p
-                      className="text-center text-2xl text-pink-500"
+                      className="text-center text-2xl text-pink-600"
                       style={{ fontWeight: "bolder" }}
                     >
                       {text?.ourmision?.[items.section]?.[items.titleKey]}
@@ -197,7 +197,7 @@ const ABout = () => {
             data-aos-easing="ease-in-out"
           >
             <span
-              className="text-pink-500"
+              className="text-pink-600"
               style={{ fontWeight: "bolder" }}
               data-aos="fade-up"
               data-aos-duration="300"
@@ -211,8 +211,8 @@ const ABout = () => {
           <p
             className="text-center nav-link max-w-4xl mx-auto"
             data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="500"
+            data-aos-duration="600"
+            data-aos-delay="600"
             data-aos-easing="ease-in-out"
           >
             {text?.our_vision?.vision_desc}

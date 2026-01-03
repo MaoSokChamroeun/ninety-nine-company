@@ -131,7 +131,7 @@ const Contact = () => {
           data-aos-easing="ease-in-out"
           style={{ fontWeight: "bolder" }}
         >
-          <span className="text-pink-500" style={{ fontWeight: "bolder" }}>
+          <span className="text-pink-600" style={{ fontWeight: "bolder" }}>
             Our
           </span>{" "}
           Location

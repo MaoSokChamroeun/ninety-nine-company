@@ -19,7 +19,7 @@ const BannerFooter = () => {
             data-aos-duration="350"
             data-aos-delay="350"
             data-aos-easing="ease-in-out">
-            {text?.business?.business_title} <span className='text-pink-500' style={{fontWeight : 'bolder'}} data-aos="fade-up"
+            {text?.business?.business_title} <span className='text-pink-600' style={{fontWeight : 'bolder'}} data-aos="fade-up"
             data-aos-duration="350"
             data-aos-delay="350"
             data-aos-easing="ease-in-out">{text?.business?.business_title_next}</span>

@@ -11,7 +11,7 @@ const GraphicDesign = () => {
                 <h1 className='text-center'style={{fontWeight : 'bolder'}} data-aos="fade-up"
             data-aos-duration="300"
             data-aos-delay="300"
-            data-aos-easing="ease-in-out"><span className='text-pink-500' style={{fontWeight : 'bolder'}}>Graphic</span> Designer</h1>
+            data-aos-easing="ease-in-out"><span className='text-pink-600' style={{fontWeight : 'bolder'}}>Graphic</span> Designer</h1>
                 <p className='text-center p-2 nav-link' data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="500"

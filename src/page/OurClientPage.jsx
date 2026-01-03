@@ -14,7 +14,7 @@ const OurClientPage = () => {
             data-aos-duration="300"
             data-aos-delay="300"
             data-aos-easing="ease-in-out">
-            Our <span className="text-pink-500" style={{fontWeight : "bolder"}} data-aos="fade-up"
+            Our <span className="text-pink-600" style={{fontWeight : "bolder"}} data-aos="fade-up"
             data-aos-duration="300"
             data-aos-delay="300"
             data-aos-easing="ease-in-out">Client</span>

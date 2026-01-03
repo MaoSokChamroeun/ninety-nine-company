@@ -1,12 +1,12 @@
 :root {
   --bg-color: #ffffff;
-  --bg-service :#d7006c;
+  --bg-service :#d50043;
   --color-service : #ffffff;
   --text-color: #020617;
 
   --nav-bg: #ffffff;
   --nav-hover: #e5e7eb;
-  --nav-active: #d7006c; 
+  --nav-active: #d50043; 
   --box-flow : #ffffff;
 }
 
@@ -15,7 +15,7 @@
   --text-color: #ffffff;
   --nav-bg: #020617;
   --nav-hover: #1e293b;
-  --nav-active: #d7006c;
+  --nav-active: #e60076;
   --box-flow : #020617;
  
 }

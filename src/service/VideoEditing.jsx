@@ -16,7 +16,7 @@ const VideoEditing = () => {
             data-aos-delay="300"
             style={{fontWeight : "bolder"}}
           >
-            <span className="text-pink-500" style={{fontWeight : "bolder"}}>Video</span> Editing
+            <span className="text-pink-600" style={{fontWeight : "bolder"}}>Video</span> Editing
           </h1>
 
           <p
