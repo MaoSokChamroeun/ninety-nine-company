@@ -1,4 +1,7 @@
 const videos = [
+  {id : "HyxKUziuVz5qXo2L",
+    delay : 300
+  },
   {
     id: "43qadMOeSAY",
     delay: 500,
