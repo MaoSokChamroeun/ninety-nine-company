@@ -2,7 +2,10 @@ const videos = [
   {id : "0_RZ2LzPQAw",
     delay : 300
   },
-  
+  {
+    id:"-hLa4KWSPZk",
+    delay : 300,
+  },
   {
     id: "43qadMOeSAY",
     delay: 500,
