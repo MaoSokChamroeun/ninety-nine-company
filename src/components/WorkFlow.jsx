@@ -34,7 +34,7 @@ const WorkFlow = () => {
                         gap-6 "
         >
           <div 
-            className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-600 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
+            className="rounded-xl border-1 border-gray-200 p-0.5 shadow-xl "
             data-aos="fade-up"
             data-aos-duration="300"
             data-aos-delay="100"
@@ -73,7 +73,7 @@ const WorkFlow = () => {
           </div>
 
           <div
-            className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-600 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
+            className="rounded-xl border-1 border-gray-200 p-0.5 shadow-xl"
             data-aos="fade-up"
             data-aos-duration="300"
             data-aos-delay="300"
@@ -112,7 +112,7 @@ const WorkFlow = () => {
           </div>
 
           <div
-            className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-600 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
+            className="rounded-xl border-1 border-gray-200 p-0.5 shadow-xl "
             data-aos="fade-up"
             data-aos-duration="300"
             data-aos-delay="600"

@@ -42,7 +42,7 @@ const OurAchivement = () => {
           {achievementData.map((item, index) => (
             <div
               key={index}
-              className="flex h-[150px] flex-col items-center justify-center rounded-lg shadow max-w-xl h-auto hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-600 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
+              className="flex h-[150px] flex-col items-center justify-center rounded-lg shadow max-w-xl h-auto rounded-xlp-0.5 shadow-xl border-1 border-gray-200"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay={item.delay}

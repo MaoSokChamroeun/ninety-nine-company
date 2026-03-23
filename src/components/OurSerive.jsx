@@ -35,7 +35,7 @@ const OurSerive = () => {
         >
           {data.map((service) => (
             <div
-              className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-pink-400 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] text-center lg:h-[250px] xl:h-[250px]"
+              className=" rounded-xl p-0.5 shadow-xl border-1 border-gray-200 text-center lg:h-[250px] xl:h-[250px]"
               key={service.id}
               data-aos="fade-up"
               data-aos-duration="1000"
