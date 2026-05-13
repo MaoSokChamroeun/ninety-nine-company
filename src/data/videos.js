@@ -38,6 +38,14 @@ const videos = [
     id: "vZBStMN6_uQ",
     delay: 700,
   },
+  {
+    id : "AwIzTlEQ4LGIpl2e",
+    delay : 300
+  },
+  {
+    id : "lWPm7JiIGCOHFlKc",
+    delay : 300
+  }
 ];
 
 export default videos;
