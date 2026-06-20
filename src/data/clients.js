@@ -16,6 +16,12 @@ import logo15 from '../assets/client/logo_15.jpg'
 import logo16 from '../assets/client/logo_16.jpg'
 import logo17 from '../assets/client/logo_17.jpg'
 import logo19 from '../assets/client/logo_19.jpg'
+import logo20 from '../assets/client/royal.PNG'
+import logo21 from '../assets/client/tnt.jpg'
+import logo22 from '../assets/client/hgn.jpg'
+import logo23 from '../assets/client/bona.jpg'
+import logo24 from '../assets/client/grass.jpg'
+
 const clients = [
     {
         id : 1,
@@ -93,7 +99,21 @@ const clients = [
     {
         id : 18,
         image : logo19
+    },
+    {
+        id : 19,
+        image : logo20
+    },
+    {
+        id : 20,
+        image : logo21
+    },
+    {
+        id : 21,
+        image : logo22
     }
+    
+  
 ];
 
 export default clients

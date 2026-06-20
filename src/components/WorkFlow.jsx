@@ -85,7 +85,7 @@ const WorkFlow = () => {
                   className="text-pink-600"
                   style={{ fontWeight: "bolder" }}
                 >
-                  {text?.workflow?.beforeboost?.before_title}
+                  {text?.workflow?.during_boosting?.during_title}
                 </span>
               </h2>
               <ul className="space-y-2">
@@ -124,7 +124,7 @@ const WorkFlow = () => {
                   className="text-pink-600"
                   style={{ fontWeight: "bolder" }}
                 >
-                  {text?.workflow?.during_boosting?.during_title}
+                  {text?.workflow?.after_boosting?.after_boosting_title}
                 </span>
               </h2>
               <ul className="space-y-2">
